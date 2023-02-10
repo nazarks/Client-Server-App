@@ -70,6 +70,11 @@ subproc_ping = subprocess.Popen(args, stdout=subprocess.PIPE)
 for line in subproc_ping.stdout:
     print(line.decode(encoding="cp866"))
 
+args = ["ping", "youtube.com", "-c 2"]
+subproc_ping = subprocess.Popen(args, stdout=subprocess.PIPE)
+for line in subproc_ping.stdout:
+    print(line.decode(encoding="cp866"))
+
 # Task 6
 # Создать текстовый файл test_file.txt, заполнить его тремя строками: «сетевое
 # программирование», «сокет», «декоратор». Проверить кодировку файла по умолчанию.
