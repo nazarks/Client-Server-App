@@ -40,8 +40,14 @@ print(f"Тип {type(str_3)}, содержимое {str_3}, длина {len(str_
 # Task 3
 # Определить, какие из слов «attribute», «класс», «функция», «type» невозможно записать в
 # байтовом типе.
+var_list = ['attribute', 'класс', 'функция', 'type']
+for el in var_list:
+    try:
+        print('Слово записано в байтовом типе:', eval(f'b"{el}"'))
+    except SyntaxError:
+        print(
+            f'Слово "{el}" невозможно записать в байтовом типе с помощью префикса b')
 
-print("\nВ байтовом виде невозможно записать слова: «класс», «функция»")
 
 # Task 4
 # Преобразовать слова «разработка», «администрирование», «protocol», «standard» из
@@ -64,25 +70,42 @@ print(
 # байтовового в строковый тип на кириллице.
 
 import subprocess
+import chardet
+
 
 args = ["ping", "google.com", "-c 2"]
 subproc_ping = subprocess.Popen(args, stdout=subprocess.PIPE)
 for line in subproc_ping.stdout:
-    print(line.decode(encoding="cp866"))
+    result = chardet.detect(line)
+    print(line.decode(encoding=result['encoding']))
 
 args = ["ping", "youtube.com", "-c 2"]
 subproc_ping = subprocess.Popen(args, stdout=subprocess.PIPE)
 for line in subproc_ping.stdout:
-    print(line.decode(encoding="cp866"))
+    result = chardet.detect(line)
+    print(line.decode(encoding=result['encoding']))
 
 # Task 6
 # Создать текстовый файл test_file.txt, заполнить его тремя строками: «сетевое
 # программирование», «сокет», «декоратор». Проверить кодировку файла по умолчанию.
 # Принудительно открыть файл в формате Unicode и вывести его содержимое
 
-with open("test_file.txt", "w") as f:
-    f.write(f"сетевое программирование\nсокет\nдекоратор\n")
+from chardet.universaldetector import UniversalDetector
 
-with open("test_file.txt", "r", encoding="utf-8") as f:
+
+with open("test_file.txt", "w") as f:
+    f.write('сетевое программирование\nсокет\nдекоратор')
+
+detector = UniversalDetector()
+with open("test_file.txt", "rb") as f:
+    for line in f:
+        detector.feed(line)
+        if detector.done:
+            break
+    detector.close()
+print(detector.result)
+
+with open("test_file.txt", "r", encoding=detector.result['encoding']) as f:
     for line in f:
         print(line)
+
