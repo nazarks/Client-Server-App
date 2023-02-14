@@ -40,13 +40,12 @@ print(f"Тип {type(str_3)}, содержимое {str_3}, длина {len(str_
 # Task 3
 # Определить, какие из слов «attribute», «класс», «функция», «type» невозможно записать в
 # байтовом типе.
-var_list = ['attribute', 'класс', 'функция', 'type']
+var_list = ["attribute", "класс", "функция", "type"]
 for el in var_list:
     try:
-        print('Слово записано в байтовом типе:', eval(f'b"{el}"'))
+        print("Слово записано в байтовом типе:", eval(f'b"{el}"'))
     except SyntaxError:
-        print(
-            f'Слово "{el}" невозможно записать в байтовом типе с помощью префикса b')
+        print(f'Слово "{el}" невозможно записать в байтовом типе с помощью префикса b')
 
 
 # Task 4
@@ -70,20 +69,20 @@ print(
 # байтовового в строковый тип на кириллице.
 
 import subprocess
-import chardet
 
+import chardet
 
 args = ["ping", "google.com", "-c 2"]
 subproc_ping = subprocess.Popen(args, stdout=subprocess.PIPE)
 for line in subproc_ping.stdout:
     result = chardet.detect(line)
-    print(line.decode(encoding=result['encoding']))
+    print(line.decode(encoding=result["encoding"]))
 
 args = ["ping", "youtube.com", "-c 2"]
 subproc_ping = subprocess.Popen(args, stdout=subprocess.PIPE)
 for line in subproc_ping.stdout:
     result = chardet.detect(line)
-    print(line.decode(encoding=result['encoding']))
+    print(line.decode(encoding=result["encoding"]))
 
 # Task 6
 # Создать текстовый файл test_file.txt, заполнить его тремя строками: «сетевое
@@ -92,9 +91,8 @@ for line in subproc_ping.stdout:
 
 from chardet.universaldetector import UniversalDetector
 
-
 with open("test_file.txt", "w") as f:
-    f.write('сетевое программирование\nсокет\nдекоратор')
+    f.write("сетевое программирование\nсокет\nдекоратор")
 
 detector = UniversalDetector()
 with open("test_file.txt", "rb") as f:
@@ -105,7 +103,6 @@ with open("test_file.txt", "rb") as f:
     detector.close()
 print(detector.result)
 
-with open("test_file.txt", "r", encoding=detector.result['encoding']) as f:
+with open("test_file.txt", "r", encoding=detector.result["encoding"]) as f:
     for line in f:
         print(line)
-
