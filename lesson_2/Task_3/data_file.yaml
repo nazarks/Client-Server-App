@@ -1,0 +1,9 @@
+frameworks:
+- Django
+- FastApi
+- Flask
+count: 3
+release_date:
+    Django: 21 июля 2005 года
+    Flask: 1 апреля 2010 года
+    FastApi: 5 Декабря 2018 года
