@@ -1,0 +1,360 @@
+2023-02-25 01:17:58,985 - DEBUG - client - Running sent_data with params {'action': 'presence', 'time': 1677277078.9859242, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-25 01:25:57,383 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 01:25:57,384 - DEBUG - client - Running create_presence with params Nik
+2023-02-25 01:25:57,384 - DEBUG - client - Running sent_data with params {'action': 'presence', 'time': 1677277557.3841848, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-25 01:25:57,384 - DEBUG - client - Receive data {'response': 200, 'time': 1677277557.3843477}
+2023-02-25 01:25:57,384 - DEBUG - client - Running process_data with params {'response': 200, 'time': 1677277557.3843477}
+2023-02-25 01:29:31,901 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 01:29:31,901 - DEBUG - client - Running create_presence with params: Nik
+2023-02-25 01:29:31,901 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677277771.9018915, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-25 01:29:31,902 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677277771.9021003}
+2023-02-25 01:29:31,902 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677277771.9021003}
+2023-02-25 01:29:31,902 - DEBUG - client - Receive answer from server (main): 200, OK
+2023-02-25 01:29:33,696 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 01:29:33,696 - DEBUG - client - Running create_presence with params: Nik
+2023-02-25 01:29:33,700 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677277773.7005887, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-25 01:29:33,701 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677277773.7008948}
+2023-02-25 01:29:33,701 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677277773.7008948}
+2023-02-25 01:29:33,701 - DEBUG - client - Receive answer from server (main): 200, OK
+2023-02-25 01:31:55,178 - DEBUG - client - ===== Start working ===== (main)
+2023-02-25 01:31:55,182 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 01:31:55,182 - DEBUG - client - Running create_presence with params: Nik
+2023-02-25 01:31:55,182 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677277915.1828141, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-25 01:31:55,183 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677277915.1829596}
+2023-02-25 01:31:55,183 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677277915.1829596}
+2023-02-25 01:31:55,183 - DEBUG - client - Receive answer from server (main): 200, OK
+2023-02-25 01:31:55,183 - DEBUG - client - ===== End working ===== (main)
+2023-02-25 01:33:11,816 - DEBUG - client - ===== Start working ===== (main)
+2023-02-25 01:33:11,820 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 01:33:11,820 - DEBUG - client - Running create_presence with params: Nik
+2023-02-25 01:33:11,820 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677277991.8207343, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-25 01:33:11,821 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677277991.8209567}
+2023-02-25 01:33:11,821 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677277991.8209567}
+2023-02-25 01:33:11,821 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-25 01:33:11,821 - DEBUG - client - ===== End working ===== (main)
+2023-02-25 01:35:51,119 - DEBUG - client - ===== Start working ===== (main)
+2023-02-25 01:35:51,122 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 01:35:51,122 - DEBUG - client - Running create_presence with params: Nik
+2023-02-25 01:35:51,122 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677278151.122978, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-25 01:35:51,123 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677278151.123165}
+2023-02-25 01:35:51,123 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677278151.123165}
+2023-02-25 01:35:51,123 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-25 01:35:51,123 - DEBUG - client - ===== End working ===== (main)
+2023-02-25 01:35:57,487 - DEBUG - client - ===== Start working ===== (main)
+2023-02-25 01:35:57,489 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 01:37:39,861 - DEBUG - client - ===== Start working ===== (main)
+2023-02-25 01:37:39,864 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 01:37:39,865 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1')
+2023-02-25 01:39:57,857 - DEBUG - client - ===== Start working ===== (main)
+2023-02-25 01:39:57,860 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 01:39:57,860 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1')
+2023-02-25 01:40:41,197 - DEBUG - client - ===== Start working ===== (main)
+2023-02-25 01:40:41,199 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 01:40:41,200 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1'), [Errno 111] Connection refused
+2023-02-25 01:42:21,684 - DEBUG - client - ===== Start working ===== (main)
+2023-02-25 01:42:21,688 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 01:42:21,688 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1'), [Errno 111] Connection refused
+2023-02-25 01:44:49,024 - DEBUG - client - ===== Start working ===== (main)
+2023-02-25 01:44:49,027 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 01:44:49,027 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1'), [Errno 111] Connection refused
+2023-02-25 01:45:23,910 - DEBUG - client - ===== Start working ===== (main)
+2023-02-25 01:45:23,913 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 01:45:23,913 - DEBUG - client - Running create_presence with params: Nik
+2023-02-25 01:45:23,913 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677278723.9137094, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-25 01:45:23,914 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677278723.913911}
+2023-02-25 01:45:23,914 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677278723.913911}
+2023-02-25 01:45:23,914 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-25 01:45:23,914 - DEBUG - client - ===== End working ===== (main)
+2023-02-25 01:47:38,943 - DEBUG - client - ===== Start working ===== (main)
+2023-02-25 01:47:38,945 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 01:47:38,946 - DEBUG - client - Running create_presence with params: Nik
+2023-02-25 01:47:38,946 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677278858.9461071, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-25 01:47:38,946 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677278858.9462569}
+2023-02-25 01:47:38,946 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677278858.9462569}
+2023-02-25 01:47:38,946 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-25 01:47:38,946 - DEBUG - client - ===== End working ===== (main)
+2023-02-25 01:48:46,648 - DEBUG - client - ===== Start working ===== (main)
+2023-02-25 01:48:46,653 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 01:48:46,653 - DEBUG - client - Running create_presence with params: Nik
+2023-02-25 01:48:46,653 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677278926.6538863, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-25 01:48:46,654 - DEBUG - client - Receive data (receive_data): 1
+2023-02-25 01:48:46,654 - DEBUG - client - Running process_data with params: 1
+2023-02-25 01:48:46,654 - DEBUG - client - Decoded answer from server (main): Can't decode server answer
+2023-02-25 01:48:46,654 - DEBUG - client - ===== End working ===== (main)
+2023-02-25 01:50:52,807 - DEBUG - client - ===== Start working ===== (main)
+2023-02-25 01:50:52,810 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 01:50:52,810 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1'), [Errno 111] Connection refused
+2023-02-25 01:50:52,810 - DEBUG - client - ===== End working ===== (main)
+2023-02-25 01:51:09,297 - DEBUG - client - ===== Start working ===== (main)
+2023-02-25 01:51:09,301 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 01:51:09,301 - DEBUG - client - Running create_presence with params: Nik
+2023-02-25 01:51:09,301 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677279069.301301, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-25 01:51:09,301 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677279069.301499}
+2023-02-25 01:51:09,301 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677279069.301499}
+2023-02-25 01:51:09,301 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-25 01:51:09,301 - DEBUG - client - ===== End working ===== (main)
+2023-02-25 01:58:12,216 - DEBUG - client - ===== Start working ===== (main)
+2023-02-25 01:58:12,218 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 01:58:12,219 - DEBUG - client - Running create_presence with params: Nik
+2023-02-25 01:58:12,219 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677279492.2191956, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-25 01:58:12,219 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677279492.2193756}
+2023-02-25 01:58:12,219 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677279492.2193756}
+2023-02-25 01:58:12,219 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-25 01:58:12,219 - DEBUG - client - ===== End working ===== (main)
+2023-02-25 02:01:59,221 - DEBUG - client - ===== Start working ===== (main)
+2023-02-25 02:01:59,224 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 02:01:59,224 - DEBUG - client - Running create_presence with params: Nik
+2023-02-25 02:01:59,224 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677279719.2246985, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-25 02:01:59,225 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677279719.2249427}
+2023-02-25 02:01:59,225 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677279719.2249427}
+2023-02-25 02:01:59,225 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-25 02:01:59,225 - DEBUG - client - ===== End working ===== (main)
+2023-02-25 02:04:07,050 - DEBUG - client - ===== Start working ===== (main)
+2023-02-25 02:04:07,053 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 02:04:07,053 - DEBUG - client - Running create_presence with params: Nik
+2023-02-25 02:04:07,053 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677279847.0538816, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-25 02:04:07,054 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677279847.0540748}
+2023-02-25 02:04:07,054 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677279847.0540748}
+2023-02-25 02:04:07,054 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-25 02:04:07,054 - DEBUG - client - ===== End working ===== (main)
+2023-02-25 02:07:13,263 - DEBUG - client - ===== Start working ===== (main)
+2023-02-25 02:07:13,266 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-25 02:07:13,266 - DEBUG - client - Running create_presence with params: Nik
+2023-02-25 02:07:13,266 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677280033.2665954, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-25 02:07:13,266 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677280033.2667322}
+2023-02-25 02:07:13,266 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677280033.2667322}
+2023-02-25 02:07:13,266 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-25 02:07:13,266 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 00:04:02,690 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 00:04:08,064 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 00:04:08,067 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 00:04:08,068 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 00:04:08,068 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677359048.0681212, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 00:04:08,068 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677359048.0683293}
+2023-02-26 00:04:08,068 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677359048.0683293}
+2023-02-26 00:04:08,068 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 00:04:08,068 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 00:06:26,839 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 00:06:26,843 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 00:06:26,843 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 00:06:26,843 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677359186.8432121, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 00:06:26,843 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677359186.8433256}
+2023-02-26 00:06:26,843 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677359186.8433256}
+2023-02-26 00:06:26,843 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 00:06:26,843 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 00:09:43,976 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 00:09:43,979 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 00:09:43,979 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 00:09:43,979 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677359383.9794376, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 00:09:43,979 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677359383.9795892}
+2023-02-26 00:09:43,979 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677359383.9795892}
+2023-02-26 00:09:43,979 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 00:09:43,979 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 00:11:15,271 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 00:11:15,274 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 00:11:15,274 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 00:11:15,274 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677359475.2748225, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 00:11:15,275 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677359475.2749345}
+2023-02-26 00:11:15,275 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677359475.2749345}
+2023-02-26 00:11:15,275 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 00:11:15,275 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 00:15:49,488 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 00:15:49,491 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 00:15:49,491 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 00:15:49,491 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677359749.491601, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 00:15:49,491 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677359749.4917028}
+2023-02-26 00:15:49,491 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677359749.4917028}
+2023-02-26 00:15:49,491 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 00:15:49,491 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 00:18:56,450 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 00:18:56,453 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 00:18:56,453 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 00:18:56,453 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677359936.4538107, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 00:18:56,454 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677359936.453938}
+2023-02-26 00:18:56,454 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677359936.453938}
+2023-02-26 00:18:56,454 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 00:18:56,454 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 00:19:45,600 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 00:19:45,603 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 00:19:45,604 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 00:19:45,604 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677359985.604195, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 00:19:45,604 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677359985.6043327}
+2023-02-26 00:19:45,604 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677359985.6043327}
+2023-02-26 00:19:45,604 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 00:19:45,604 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 00:21:45,447 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 00:21:45,450 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 00:21:45,450 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 00:21:45,450 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677360105.4509473, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 00:21:45,451 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677360105.4511054}
+2023-02-26 00:21:45,451 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677360105.4511054}
+2023-02-26 00:21:45,451 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 00:21:45,451 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 00:29:51,920 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 00:29:51,923 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 00:29:51,923 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 00:29:51,923 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677360591.9232543, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 00:29:51,923 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677360591.9235122}
+2023-02-26 00:29:51,923 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677360591.9235122}
+2023-02-26 00:29:51,923 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 00:29:51,923 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 00:30:55,772 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 00:30:55,775 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 00:30:55,775 - DEBUG - client - Running create_presence with params: Nik1
+2023-02-26 00:30:55,775 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677360655.7758255, 'type': 'status', 'user': {'account_name': 'Nik1', 'status': 'Yep, I am here!'}}
+2023-02-26 00:30:55,776 - DEBUG - client - Receive data (receive_data): {'response': 402, 'time': 1677360655.7760139, 'error': 'No account with that name.'}
+2023-02-26 00:30:55,776 - DEBUG - client - Running process_data with params: {'response': 402, 'time': 1677360655.7760139, 'error': 'No account with that name.'}
+2023-02-26 00:30:55,776 - DEBUG - client - Decoded answer from server (main): 402, No account with that name.
+2023-02-26 00:30:55,776 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 00:32:10,802 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 00:32:10,805 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 00:32:10,805 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 00:32:10,805 - DEBUG - client - Running sent_data with params: msg
+2023-02-26 00:32:10,806 - DEBUG - client - Receive data (receive_data): {'response': 400, 'time': 1677360730.8059483, 'error': 'Bad request.'}
+2023-02-26 00:32:10,806 - DEBUG - client - Running process_data with params: {'response': 400, 'time': 1677360730.8059483, 'error': 'Bad request.'}
+2023-02-26 00:32:10,806 - DEBUG - client - Decoded answer from server (main): 400, Bad request.
+2023-02-26 00:32:10,806 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 00:32:37,217 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 00:32:37,220 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 00:32:37,220 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 00:32:37,220 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677360757.2208364, 'type': 'status', 'user1': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 00:32:37,221 - DEBUG - client - Receive data (receive_data): {'response': 400, 'time': 1677360757.2210264, 'error': 'Bad request.'}
+2023-02-26 00:32:37,221 - DEBUG - client - Running process_data with params: {'response': 400, 'time': 1677360757.2210264, 'error': 'Bad request.'}
+2023-02-26 00:32:37,221 - DEBUG - client - Decoded answer from server (main): 400, Bad request.
+2023-02-26 00:32:37,221 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 00:33:48,152 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 00:33:48,155 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 00:33:48,155 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 00:33:48,155 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677360828.1554348, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 00:33:48,155 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677360828.15572}
+2023-02-26 00:33:48,155 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677360828.15572}
+2023-02-26 00:33:48,155 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 00:33:48,155 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:21:12,335 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:21:12,341 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:21:12,341 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 01:21:12,341 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677363672.3417184, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:21:12,342 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677363672.3421538}
+2023-02-26 01:21:12,342 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677363672.3421538}
+2023-02-26 01:21:12,342 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 01:21:12,342 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:22:32,635 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:22:32,638 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:22:32,639 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 01:22:32,639 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677363752.6391087, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:22:32,639 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677363752.6393688}
+2023-02-26 01:22:32,639 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677363752.6393688}
+2023-02-26 01:22:32,639 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 01:22:32,639 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:24:26,993 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:24:26,996 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:24:26,996 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 01:24:26,996 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677363866.996673, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:24:26,997 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677363866.9969265}
+2023-02-26 01:24:26,997 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677363866.9969265}
+2023-02-26 01:24:26,997 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 01:24:26,997 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:28:44,979 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:28:44,981 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:28:44,982 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 01:28:44,982 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677364124.9821346, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:28:44,982 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677364124.9823956}
+2023-02-26 01:28:44,982 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677364124.9823956}
+2023-02-26 01:28:44,982 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 01:28:44,982 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:29:59,364 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:29:59,367 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:29:59,367 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1'), [Errno 111] Connection refused
+2023-02-26 01:29:59,367 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:30:11,101 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:30:11,103 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:30:11,104 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1'), [Errno 111] Connection refused
+2023-02-26 01:30:11,104 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:30:24,041 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:30:24,044 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:30:24,044 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1'), [Errno 111] Connection refused
+2023-02-26 01:30:24,044 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:30:24,592 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:30:24,596 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:30:24,596 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1'), [Errno 111] Connection refused
+2023-02-26 01:30:24,596 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:30:25,040 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:30:25,043 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:30:25,043 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1'), [Errno 111] Connection refused
+2023-02-26 01:30:25,043 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:30:25,432 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:30:25,435 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:30:25,435 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1'), [Errno 111] Connection refused
+2023-02-26 01:30:25,435 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:30:40,962 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:30:40,965 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:30:40,965 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1'), [Errno 111] Connection refused
+2023-02-26 01:30:40,965 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:30:42,240 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:30:42,243 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:30:42,243 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1'), [Errno 111] Connection refused
+2023-02-26 01:30:42,243 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:30:43,894 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:30:43,896 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:30:43,897 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1'), [Errno 111] Connection refused
+2023-02-26 01:30:43,897 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:30:44,920 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:30:44,923 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:30:44,923 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1'), [Errno 111] Connection refused
+2023-02-26 01:30:44,923 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:31:06,614 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:31:06,617 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:31:06,618 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1'), [Errno 111] Connection refused
+2023-02-26 01:31:06,618 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:31:07,144 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:31:07,147 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:31:07,147 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1'), [Errno 111] Connection refused
+2023-02-26 01:31:07,147 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:31:07,528 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:31:07,531 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:31:07,531 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1'), [Errno 111] Connection refused
+2023-02-26 01:31:07,531 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:31:07,857 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:31:07,859 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:31:07,859 - CRITICAL - client - Can't connect to server: (7777, '127.0.0.1'), [Errno 111] Connection refused
+2023-02-26 01:31:07,859 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:31:20,448 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:31:20,451 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:31:20,451 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 01:31:20,451 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677364280.4519758, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:31:20,452 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677364280.4522166}
+2023-02-26 01:31:20,452 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677364280.4522166}
+2023-02-26 01:31:20,452 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 01:31:20,452 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:31:20,923 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:31:20,927 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:31:20,927 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 01:31:20,928 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677364280.9280372, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:31:20,928 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677364280.9282691}
+2023-02-26 01:31:20,928 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677364280.9282691}
+2023-02-26 01:31:20,928 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 01:31:20,928 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:31:21,280 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:31:21,286 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:31:21,286 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 01:31:21,286 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677364281.2865565, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:31:21,286 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677364281.286795}
+2023-02-26 01:31:21,287 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677364281.286795}
+2023-02-26 01:31:21,287 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 01:31:21,287 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 01:49:41,648 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 01:49:41,651 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 01:49:41,651 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 01:49:41,651 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677365381.651836, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:49:41,652 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677365381.652098}
+2023-02-26 01:49:41,652 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677365381.652098}
+2023-02-26 01:49:41,652 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 01:49:41,652 - DEBUG - client - ===== End working ===== (main)
+2023-02-26 02:13:07,865 - DEBUG - client - ===== Start working ===== (main)
+2023-02-26 02:13:07,868 - DEBUG - client - Args from console Namespace(port=7777, server_ip='127.0.0.1')
+2023-02-26 02:13:07,868 - DEBUG - client - Running create_presence with params: Nik
+2023-02-26 02:13:07,868 - DEBUG - client - Running sent_data with params: {'action': 'presence', 'time': 1677366787.868449, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 02:13:07,868 - DEBUG - client - Receive data (receive_data): {'response': 200, 'time': 1677366787.8686972}
+2023-02-26 02:13:07,868 - DEBUG - client - Running process_data with params: {'response': 200, 'time': 1677366787.8686972}
+2023-02-26 02:13:07,868 - DEBUG - client - Decoded answer from server (main): 200, OK
+2023-02-26 02:13:07,868 - DEBUG - client - ===== End working ===== (main)
