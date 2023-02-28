@@ -1,0 +1,170 @@
+2023-02-26 01:22:53,811 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:22:53,815 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:22:54,851 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:22:54,855 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:22:55,528 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:22:55,531 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:23:15,946 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:23:15,949 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:23:16,978 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:23:16,982 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:24:24,946 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:24:24,949 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:24:24,950 - DEBUG - server - Server is starting...
+2023-02-26 01:24:26,996 - DEBUG - server - Connected by ('127.0.0.1', 52924)
+2023-02-26 01:24:26,996 - DEBUG - server - Receive data (receive_data): {'action': 'presence', 'time': 1677363866.996673, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:24:26,996 - DEBUG - server - Running process_data with params: {'action': 'presence', 'time': 1677363866.996673, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:24:26,996 - DEBUG - server - Running sent_data with params: {'response': 200, 'time': 1677363866.9969265}
+2023-02-26 01:28:34,604 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:28:34,607 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:28:34,607 - DEBUG - server - Server is starting...
+2023-02-26 01:28:40,316 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:28:40,320 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:28:40,321 - DEBUG - server - Server is starting...
+2023-02-26 01:28:42,162 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:28:42,166 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:28:42,166 - DEBUG - server - Server is starting...
+2023-02-26 01:28:44,982 - DEBUG - server - Connected by ('127.0.0.1', 52926)
+2023-02-26 01:28:44,982 - DEBUG - server - Receive data (receive_data): {'action': 'presence', 'time': 1677364124.9821346, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:28:44,982 - DEBUG - server - Running process_data with params: {'action': 'presence', 'time': 1677364124.9821346, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:28:44,982 - DEBUG - server - Running sent_data with params: {'response': 200, 'time': 1677364124.9823956}
+2023-02-26 01:28:54,267 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:28:54,270 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:28:54,270 - CRITICAL - server - Error starting server [Errno 98] Address already in use
+2023-02-26 01:29:03,242 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:29:03,246 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:29:03,246 - CRITICAL - server - Error starting server [Errno 98] Address already in use
+2023-02-26 01:29:04,779 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:29:04,782 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:29:04,782 - CRITICAL - server - Error starting server [Errno 98] Address already in use
+2023-02-26 01:29:05,906 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:29:05,909 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:29:05,909 - CRITICAL - server - Error starting server [Errno 98] Address already in use
+2023-02-26 01:29:37,330 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:29:37,333 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:29:37,333 - CRITICAL - server - Error starting server [Errno 98] Address already in use
+2023-02-26 01:29:54,092 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:29:54,095 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:29:54,095 - DEBUG - server - Server is starting...
+2023-02-26 01:29:56,650 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:29:56,654 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:29:56,654 - DEBUG - server - Server is starting...
+2023-02-26 01:30:02,636 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:02,639 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:02,639 - DEBUG - server - Server is starting...
+2023-02-26 01:30:05,034 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:05,037 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:05,038 - DEBUG - server - Server is starting...
+2023-02-26 01:30:06,379 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:06,382 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:06,382 - DEBUG - server - Server is starting...
+2023-02-26 01:30:07,711 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:07,714 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:07,714 - DEBUG - server - Server is starting...
+2023-02-26 01:30:13,757 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:13,761 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:13,762 - DEBUG - server - Server is starting...
+2023-02-26 01:30:14,914 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:14,917 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:14,917 - DEBUG - server - Server is starting...
+2023-02-26 01:30:15,843 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:15,846 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:15,846 - DEBUG - server - Server is starting...
+2023-02-26 01:30:17,122 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:17,126 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:17,126 - DEBUG - server - Server is starting...
+2023-02-26 01:30:21,563 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:21,566 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:21,566 - DEBUG - server - Server is starting...
+2023-02-26 01:30:28,187 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:28,190 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:28,190 - DEBUG - server - Server is starting...
+2023-02-26 01:30:31,491 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:31,494 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:31,494 - DEBUG - server - Server is starting...
+2023-02-26 01:30:32,660 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:32,663 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:32,663 - DEBUG - server - Server is starting...
+2023-02-26 01:30:33,971 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:33,974 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:33,974 - DEBUG - server - Server is starting...
+2023-02-26 01:30:35,187 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:35,190 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:35,190 - DEBUG - server - Server is starting...
+2023-02-26 01:30:36,355 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:36,358 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:36,358 - DEBUG - server - Server is starting...
+2023-02-26 01:30:37,258 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:37,261 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:37,261 - DEBUG - server - Server is starting...
+2023-02-26 01:30:48,203 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:48,206 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:48,206 - DEBUG - server - Server is starting...
+2023-02-26 01:30:49,381 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:49,384 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:49,384 - DEBUG - server - Server is starting...
+2023-02-26 01:30:50,380 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:50,383 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:50,383 - DEBUG - server - Server is starting...
+2023-02-26 01:30:51,307 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:30:51,310 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:30:51,310 - DEBUG - server - Server is starting...
+2023-02-26 01:31:00,684 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:31:00,688 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:31:00,688 - DEBUG - server - Server is starting...
+2023-02-26 01:31:03,083 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:31:03,086 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:31:03,086 - DEBUG - server - Server is starting...
+2023-02-26 01:31:10,819 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:31:10,822 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:31:10,822 - DEBUG - server - Server is starting...
+2023-02-26 01:31:13,763 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:31:13,767 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:31:13,767 - DEBUG - server - Server is starting...
+2023-02-26 01:31:15,196 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:31:15,199 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:31:15,199 - DEBUG - server - Server is starting...
+2023-02-26 01:31:16,459 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:31:16,462 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:31:16,462 - DEBUG - server - Server is starting...
+2023-02-26 01:31:20,452 - DEBUG - server - Connected by ('127.0.0.1', 52956)
+2023-02-26 01:31:20,452 - DEBUG - server - Receive data (receive_data): {'action': 'presence', 'time': 1677364280.4519758, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:31:20,452 - DEBUG - server - Running process_data with params: {'action': 'presence', 'time': 1677364280.4519758, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:31:20,452 - DEBUG - server - Running sent_data with params: {'response': 200, 'time': 1677364280.4522166}
+2023-02-26 01:31:20,928 - DEBUG - server - Connected by ('127.0.0.1', 52958)
+2023-02-26 01:31:20,928 - DEBUG - server - Receive data (receive_data): {'action': 'presence', 'time': 1677364280.9280372, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:31:20,928 - DEBUG - server - Running process_data with params: {'action': 'presence', 'time': 1677364280.9280372, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:31:20,928 - DEBUG - server - Running sent_data with params: {'response': 200, 'time': 1677364280.9282691}
+2023-02-26 01:31:21,286 - DEBUG - server - Connected by ('127.0.0.1', 52960)
+2023-02-26 01:31:21,286 - DEBUG - server - Receive data (receive_data): {'action': 'presence', 'time': 1677364281.2865565, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:31:21,286 - DEBUG - server - Running process_data with params: {'action': 'presence', 'time': 1677364281.2865565, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:31:21,286 - DEBUG - server - Running sent_data with params: {'response': 200, 'time': 1677364281.286795}
+2023-02-26 01:31:24,763 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:31:24,766 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:31:24,766 - CRITICAL - server - Error starting server [Errno 98] Address already in use
+2023-02-26 01:31:31,899 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:31:31,902 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:31:31,902 - CRITICAL - server - Error starting server [Errno 98] Address already in use
+2023-02-26 01:31:43,724 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:31:43,727 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:31:43,727 - CRITICAL - server - Error starting server [Errno 98] Address already in use
+2023-02-26 01:31:44,507 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:31:44,510 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:31:44,510 - CRITICAL - server - Error starting server [Errno 98] Address already in use
+2023-02-26 01:31:59,515 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:31:59,518 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:31:59,518 - CRITICAL - server - Error starting server [Errno 98] Address already in use
+2023-02-26 01:49:39,123 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 01:49:39,126 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 01:49:39,126 - DEBUG - server - Server is starting...
+2023-02-26 01:49:41,651 - DEBUG - server - Connected by ('127.0.0.1', 52962)
+2023-02-26 01:49:41,651 - DEBUG - server - Receive data (receive_data): {'action': 'presence', 'time': 1677365381.651836, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:49:41,652 - DEBUG - server - Running process_data with params: {'action': 'presence', 'time': 1677365381.651836, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 01:49:41,652 - DEBUG - server - Running sent_data with params: {'response': 200, 'time': 1677365381.652098}
+2023-02-26 02:12:58,516 - DEBUG - server - ===== Start working ===== (main)
+2023-02-26 02:12:58,519 - DEBUG - server - Args from console Namespace(port=7777, server_listen_ip='')
+2023-02-26 02:12:58,520 - DEBUG - server - Server is starting...
+2023-02-26 02:13:07,868 - DEBUG - server - Connected by ('127.0.0.1', 52966)
+2023-02-26 02:13:07,868 - DEBUG - server - Receive data (receive_data): {'action': 'presence', 'time': 1677366787.868449, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 02:13:07,868 - DEBUG - server - Running process_data with params: {'action': 'presence', 'time': 1677366787.868449, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-02-26 02:13:07,868 - DEBUG - server - Running sent_data with params: {'response': 200, 'time': 1677366787.8686972}
