@@ -13,13 +13,7 @@ logger = logging.getLogger(LOGGER_NAME)
 formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(module)s - %(message)s")
 
 # Создать файловый обработчик логгирования TimedRotatingFileHandler (можно задать кодировку):
-frh = TimedRotatingFileHandler(
-    PATH_TO_LOG,
-    when="D",
-    interval=1,
-    backupCount=7,
-    encoding="utf-8",
-)
+frh = TimedRotatingFileHandler(PATH_TO_LOG, when="D", interval=1, backupCount=7, encoding="utf-8")
 frh.setLevel(logging.DEBUG)
 frh.setFormatter(formatter)
 
