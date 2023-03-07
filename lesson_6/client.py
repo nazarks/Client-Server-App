@@ -87,7 +87,13 @@ def get_params():
     return params from console
     """
     parser = argparse.ArgumentParser()
-    parser.add_argument(dest="port", type=int, help="Add port please", default=settings.DEFAULT_SERVER_PORT, nargs="?")
+    parser.add_argument(
+        dest="port",
+        type=int,
+        help="Add port please",
+        default=settings.DEFAULT_SERVER_PORT,
+        nargs="?",
+    )
     parser.add_argument(dest="server_ip", type=str, help="Add server ip address please")
     args = parser.parse_args()
     if args.port < 1024 or args.port > 65535:

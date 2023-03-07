@@ -19,7 +19,11 @@ class FunctionLog:
                 module_name,
                 outer_function_name,
             )
-            self.logger.debug("Function: '%s' running with params: '%s'", func.__name__, (args, kwargs))
+            self.logger.debug(
+                "Function: '%s' running with params: '%s'",
+                func.__name__,
+                (args, kwargs),
+            )
 
             ret = func(*args, **kwargs)
 

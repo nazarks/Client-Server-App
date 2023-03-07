@@ -37,9 +37,17 @@ def process_data(data):
         if data["user"]["account_name"] in settings.USER_LIST:
             return {"response": 200, "time": time.time()}
         else:
-            return {"response": 402, "time": time.time(), "error": "No account with that name."}
+            return {
+                "response": 402,
+                "time": time.time(),
+                "error": "No account with that name.",
+            }
 
-    return {"response": 400, "time": time.time(), "error": f"{data['action']} Bad action request."}
+    return {
+        "response": 400,
+        "time": time.time(),
+        "error": f"{data['action']} Bad action request.",
+    }
 
 
 @FunctionLog(logger)
