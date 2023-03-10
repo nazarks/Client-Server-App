@@ -1,0 +1,389 @@
+2023-03-09 03:12:22,385 - DEBUG - client - ===== Start working ===== (main)
+2023-03-09 03:12:22,386 - DEBUG - utils - Function: 'get_params' running from module: 'client.py' and function: 'main', with params: '((), {})'
+2023-03-09 03:12:22,389 - DEBUG - utils - Function: 'get_params' return: '(10000, '127.0.0.1', 'Ivan')'
+2023-03-09 03:12:22,389 - DEBUG - client - Trying to connect to the server....
+2023-03-09 03:12:22,389 - DEBUG - utils - Function: 'create_presence' running from module: 'client.py' and function: 'main', with params: '(('Ivan',), {})'
+2023-03-09 03:12:22,389 - DEBUG - utils - Function: 'create_presence' return: '{'action': 'presence', 'time': 1678320742.3897784, 'type': 'status', 'user': {'account_name': 'Ivan', 'status': 'Yep, I am here!'}}'
+2023-03-09 03:12:22,389 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39322), raddr=('127.0.0.1', 10000)>, {'action': 'presence', 'time': 1678320742.3897784, 'type': 'status', 'user': {'account_name': 'Ivan', 'status': 'Yep, I am here!'}}), {})'
+2023-03-09 03:12:22,390 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 03:12:22,390 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39322), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 03:12:22,390 - DEBUG - client - Waiting data from server....
+2023-03-09 03:12:22,693 - DEBUG - utils - Function: 'receive_data' return: '{'response': 200, 'time': 1678320742.692436}'
+2023-03-09 03:12:22,693 - DEBUG - utils - Function: 'process_response' running from module: 'client.py' and function: 'main', with params: '(({'response': 200, 'time': 1678320742.692436},), {})'
+2023-03-09 03:12:22,693 - DEBUG - utils - Function: 'process_response' return: '200, OK'
+2023-03-09 03:12:22,693 - DEBUG - client - Answer from server: 200, OK
+2023-03-09 03:12:22,694 - DEBUG - client - Threading is running
+2023-03-09 03:12:22,695 - DEBUG - utils - Function: 'user_interface' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39322), raddr=('127.0.0.1', 10000)>, 'Ivan'), {})'
+2023-03-09 03:12:22,695 - DEBUG - utils - Function: 'process_message_from_server' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39322), raddr=('127.0.0.1', 10000)>, 'Ivan'), {})'
+2023-03-09 03:12:22,696 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39322), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 03:12:22,696 - DEBUG - client - Waiting data from server....
+2023-03-09 03:12:25,567 - DEBUG - client - Message dict created: {'action': 'quit', 'time': 1678320745.567849}
+2023-03-09 03:12:25,568 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39322), raddr=('127.0.0.1', 10000)>, {'action': 'quit', 'time': 1678320745.567849}), {})'
+2023-03-09 03:12:25,571 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 03:12:25,572 - DEBUG - utils - Function: 'receive_data' return: 'None'
+2023-03-09 03:12:25,572 - DEBUG - client - Received 0 byte, perhaps disconnect from server. Client closed.
+2023-03-09 03:12:26,072 - DEBUG - utils - Function: 'user_interface' return: 'None'
+2023-03-09 03:12:26,072 - CRITICAL - client - Disconnect from server, 
+2023-03-09 03:12:26,073 - DEBUG - utils - Function: 'process_message_from_server' return: 'None'
+2023-03-09 03:12:26,698 - DEBUG - client - ===== End working ===== (main)
+2023-03-09 03:16:46,153 - DEBUG - client - ===== Start working ===== (main)
+2023-03-09 03:16:46,154 - DEBUG - utils - Function: 'get_params' running from module: 'client.py' and function: 'main', with params: '((), {})'
+2023-03-09 03:16:46,157 - DEBUG - utils - Function: 'get_params' return: '(10000, '127.0.0.1', 'Ivan')'
+2023-03-09 03:16:46,157 - DEBUG - client - Trying to connect to the server....
+2023-03-09 03:16:46,157 - DEBUG - utils - Function: 'create_presence' running from module: 'client.py' and function: 'main', with params: '(('Ivan',), {})'
+2023-03-09 03:16:46,157 - DEBUG - utils - Function: 'create_presence' return: '{'action': 'presence', 'time': 1678321006.1577938, 'type': 'status', 'user': {'account_name': 'Ivan', 'status': 'Yep, I am here!'}}'
+2023-03-09 03:16:46,157 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39324), raddr=('127.0.0.1', 10000)>, {'action': 'presence', 'time': 1678321006.1577938, 'type': 'status', 'user': {'account_name': 'Ivan', 'status': 'Yep, I am here!'}}), {})'
+2023-03-09 03:16:46,158 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 03:16:46,158 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39324), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 03:16:46,158 - DEBUG - client - Waiting data from server....
+2023-03-09 03:16:46,984 - DEBUG - utils - Function: 'receive_data' return: '{'response': 200, 'time': 1678321006.9838035}'
+2023-03-09 03:16:46,984 - DEBUG - utils - Function: 'process_response' running from module: 'client.py' and function: 'main', with params: '(({'response': 200, 'time': 1678321006.9838035},), {})'
+2023-03-09 03:16:46,984 - DEBUG - utils - Function: 'process_response' return: '200, OK'
+2023-03-09 03:16:46,984 - DEBUG - client - Answer from server: 200, OK
+2023-03-09 03:16:46,985 - DEBUG - client - Threading is running
+2023-03-09 03:16:46,986 - DEBUG - utils - Function: 'process_message_from_server' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39324), raddr=('127.0.0.1', 10000)>, 'Ivan'), {})'
+2023-03-09 03:16:46,987 - DEBUG - utils - Function: 'user_interface' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39324), raddr=('127.0.0.1', 10000)>, 'Ivan'), {})'
+2023-03-09 03:16:46,988 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39324), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 03:16:46,988 - DEBUG - client - Waiting data from server....
+2023-03-09 03:17:46,879 - DEBUG - client - Message dict created: {'action': 'quit', 'time': 1678321066.8799033}
+2023-03-09 03:17:46,880 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39324), raddr=('127.0.0.1', 10000)>, {'action': 'quit', 'time': 1678321066.8799033}), {})'
+2023-03-09 03:17:46,880 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 03:17:47,381 - DEBUG - utils - Function: 'user_interface' return: 'None'
+2023-03-09 03:17:48,057 - DEBUG - client - ===== End working ===== (main)
+2023-03-09 03:17:50,312 - DEBUG - client - ===== Start working ===== (main)
+2023-03-09 03:17:50,314 - DEBUG - utils - Function: 'get_params' running from module: 'client.py' and function: 'main', with params: '((), {})'
+2023-03-09 03:17:50,317 - DEBUG - utils - Function: 'get_params' return: '(10000, '127.0.0.1', 'Ivan')'
+2023-03-09 03:17:50,317 - DEBUG - client - Trying to connect to the server....
+2023-03-09 03:17:50,317 - DEBUG - utils - Function: 'create_presence' running from module: 'client.py' and function: 'main', with params: '(('Ivan',), {})'
+2023-03-09 03:17:50,317 - DEBUG - utils - Function: 'create_presence' return: '{'action': 'presence', 'time': 1678321070.3179686, 'type': 'status', 'user': {'account_name': 'Ivan', 'status': 'Yep, I am here!'}}'
+2023-03-09 03:17:50,318 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39326), raddr=('127.0.0.1', 10000)>, {'action': 'presence', 'time': 1678321070.3179686, 'type': 'status', 'user': {'account_name': 'Ivan', 'status': 'Yep, I am here!'}}), {})'
+2023-03-09 03:17:50,318 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 03:17:50,318 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39326), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 03:17:50,318 - DEBUG - client - Waiting data from server....
+2023-03-09 03:17:50,497 - DEBUG - utils - Function: 'receive_data' return: '{'response': 200, 'time': 1678321070.4967225}'
+2023-03-09 03:17:50,497 - DEBUG - utils - Function: 'process_response' running from module: 'client.py' and function: 'main', with params: '(({'response': 200, 'time': 1678321070.4967225},), {})'
+2023-03-09 03:17:50,497 - DEBUG - utils - Function: 'process_response' return: '200, OK'
+2023-03-09 03:17:50,497 - DEBUG - client - Answer from server: 200, OK
+2023-03-09 03:17:50,498 - DEBUG - client - Threading is running
+2023-03-09 03:17:50,500 - DEBUG - utils - Function: 'process_message_from_server' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39326), raddr=('127.0.0.1', 10000)>, 'Ivan'), {})'
+2023-03-09 03:17:50,500 - DEBUG - utils - Function: 'user_interface' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39326), raddr=('127.0.0.1', 10000)>, 'Ivan'), {})'
+2023-03-09 03:17:50,501 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39326), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 03:17:50,501 - DEBUG - client - Waiting data from server....
+2023-03-09 03:18:00,761 - DEBUG - client - ===== Start working ===== (main)
+2023-03-09 03:18:00,763 - DEBUG - utils - Function: 'get_params' running from module: 'client.py' and function: 'main', with params: '((), {})'
+2023-03-09 03:18:00,766 - DEBUG - utils - Function: 'get_params' return: '(10000, '127.0.0.1', 'Nik')'
+2023-03-09 03:18:00,766 - DEBUG - client - Trying to connect to the server....
+2023-03-09 03:18:00,766 - DEBUG - utils - Function: 'create_presence' running from module: 'client.py' and function: 'main', with params: '(('Nik',), {})'
+2023-03-09 03:18:00,766 - DEBUG - utils - Function: 'create_presence' return: '{'action': 'presence', 'time': 1678321080.7666364, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}'
+2023-03-09 03:18:00,766 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39328), raddr=('127.0.0.1', 10000)>, {'action': 'presence', 'time': 1678321080.7666364, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}), {})'
+2023-03-09 03:18:00,767 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 03:18:00,767 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39328), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 03:18:00,767 - DEBUG - client - Waiting data from server....
+2023-03-09 03:18:00,968 - DEBUG - utils - Function: 'receive_data' return: '{'response': 200, 'time': 1678321080.968401}'
+2023-03-09 03:18:00,969 - DEBUG - utils - Function: 'process_response' running from module: 'client.py' and function: 'main', with params: '(({'response': 200, 'time': 1678321080.968401},), {})'
+2023-03-09 03:18:00,969 - DEBUG - utils - Function: 'process_response' return: '200, OK'
+2023-03-09 03:18:00,969 - DEBUG - client - Answer from server: 200, OK
+2023-03-09 03:18:00,971 - DEBUG - utils - Function: 'user_interface' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39328), raddr=('127.0.0.1', 10000)>, 'Nik'), {})'
+2023-03-09 03:18:00,972 - DEBUG - client - Threading is running
+2023-03-09 03:18:00,972 - DEBUG - utils - Function: 'process_message_from_server' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39328), raddr=('127.0.0.1', 10000)>, 'Nik'), {})'
+2023-03-09 03:18:00,973 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39328), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 03:18:00,973 - DEBUG - client - Waiting data from server....
+2023-03-09 03:18:11,952 - DEBUG - utils - Function: 'create_user_message' running from module: 'client.py' and function: 'user_interface', with params: '(('sdfgsdgsdg', 'Nik'), {'account_name': 'Nik'})'
+2023-03-09 03:18:11,952 - DEBUG - client - Message dict created: {'action': 'msg', 'time': 1678321091.952399, 'from': 'Nik', 'message': 'sdfgsdgsdg', 'to': 'Nik'}
+2023-03-09 03:18:11,952 - DEBUG - utils - Function: 'create_user_message' return: '{'action': 'msg', 'time': 1678321091.952399, 'from': 'Nik', 'message': 'sdfgsdgsdg', 'to': 'Nik'}'
+2023-03-09 03:18:11,952 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39328), raddr=('127.0.0.1', 10000)>, {'action': 'msg', 'time': 1678321091.952399, 'from': 'Nik', 'message': 'sdfgsdgsdg', 'to': 'Nik'}), {})'
+2023-03-09 03:18:11,952 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 03:18:11,953 - DEBUG - client - Sent to server: sdfgsdgsdg
+2023-03-09 03:18:11,991 - DEBUG - utils - Function: 'receive_data' return: '{'action': 'msg', 'time': 1678321091.9910061, 'from': 'Nik', 'message': 'sdfgsdgsdg', 'to': 'Nik'}'
+2023-03-09 03:18:11,991 - DEBUG - client - Message: sdfgsdgsdg from user: Nik
+2023-03-09 03:18:11,992 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39328), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 03:18:11,992 - DEBUG - client - Waiting data from server....
+2023-03-09 03:18:24,053 - DEBUG - client - ===== Start working ===== (main)
+2023-03-09 03:18:24,054 - DEBUG - utils - Function: 'get_params' running from module: 'client.py' and function: 'main', with params: '((), {})'
+2023-03-09 03:18:24,057 - DEBUG - utils - Function: 'get_params' return: '(10000, '127.0.0.1', 'Nik')'
+2023-03-09 03:18:24,057 - DEBUG - client - Trying to connect to the server....
+2023-03-09 03:18:24,057 - DEBUG - utils - Function: 'create_presence' running from module: 'client.py' and function: 'main', with params: '(('Nik',), {})'
+2023-03-09 03:18:24,057 - DEBUG - utils - Function: 'create_presence' return: '{'action': 'presence', 'time': 1678321104.0579574, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}'
+2023-03-09 03:18:24,058 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39330), raddr=('127.0.0.1', 10000)>, {'action': 'presence', 'time': 1678321104.0579574, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}), {})'
+2023-03-09 03:18:24,058 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 03:18:24,058 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39330), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 03:18:24,058 - DEBUG - client - Waiting data from server....
+2023-03-09 03:18:24,260 - DEBUG - utils - Function: 'receive_data' return: '{'response': 402, 'time': 1678321104.2598932, 'error': 'User already connected.'}'
+2023-03-09 03:18:24,260 - DEBUG - utils - Function: 'process_response' running from module: 'client.py' and function: 'main', with params: '(({'response': 402, 'time': 1678321104.2598932, 'error': 'User already connected.'},), {})'
+2023-03-09 03:18:24,260 - CRITICAL - client - Something went wrong: 402, User already connected.
+2023-03-09 03:18:58,874 - DEBUG - client - ===== Start working ===== (main)
+2023-03-09 03:18:58,877 - DEBUG - utils - Function: 'get_params' running from module: 'client.py' and function: 'main', with params: '((), {})'
+2023-03-09 03:18:58,880 - DEBUG - utils - Function: 'get_params' return: '(10000, '127.0.0.1', 'Ivan')'
+2023-03-09 03:18:58,880 - DEBUG - client - Trying to connect to the server....
+2023-03-09 03:18:58,881 - DEBUG - utils - Function: 'create_presence' running from module: 'client.py' and function: 'main', with params: '(('Ivan',), {})'
+2023-03-09 03:18:58,881 - DEBUG - utils - Function: 'create_presence' return: '{'action': 'presence', 'time': 1678321138.8812182, 'type': 'status', 'user': {'account_name': 'Ivan', 'status': 'Yep, I am here!'}}'
+2023-03-09 03:18:58,881 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39332), raddr=('127.0.0.1', 10000)>, {'action': 'presence', 'time': 1678321138.8812182, 'type': 'status', 'user': {'account_name': 'Ivan', 'status': 'Yep, I am here!'}}), {})'
+2023-03-09 03:18:58,881 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 03:18:58,881 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39332), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 03:18:58,881 - DEBUG - client - Waiting data from server....
+2023-03-09 03:18:59,083 - DEBUG - utils - Function: 'receive_data' return: '{'response': 402, 'time': 1678321139.083054, 'error': 'User already connected.'}'
+2023-03-09 03:18:59,083 - DEBUG - utils - Function: 'process_response' running from module: 'client.py' and function: 'main', with params: '(({'response': 402, 'time': 1678321139.083054, 'error': 'User already connected.'},), {})'
+2023-03-09 03:18:59,083 - CRITICAL - client - Something went wrong: 402, User already connected.
+2023-03-09 03:19:01,361 - DEBUG - client - ===== Start working ===== (main)
+2023-03-09 03:19:01,363 - DEBUG - utils - Function: 'get_params' running from module: 'client.py' and function: 'main', with params: '((), {})'
+2023-03-09 03:19:01,365 - DEBUG - utils - Function: 'get_params' return: '(10000, '127.0.0.1', 'Nik')'
+2023-03-09 03:19:01,366 - DEBUG - client - Trying to connect to the server....
+2023-03-09 03:19:01,366 - DEBUG - utils - Function: 'create_presence' running from module: 'client.py' and function: 'main', with params: '(('Nik',), {})'
+2023-03-09 03:19:01,366 - DEBUG - utils - Function: 'create_presence' return: '{'action': 'presence', 'time': 1678321141.366326, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}'
+2023-03-09 03:19:01,366 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39334), raddr=('127.0.0.1', 10000)>, {'action': 'presence', 'time': 1678321141.366326, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}), {})'
+2023-03-09 03:19:01,366 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 03:19:01,366 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39334), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 03:19:01,366 - DEBUG - client - Waiting data from server....
+2023-03-09 03:19:01,568 - DEBUG - utils - Function: 'receive_data' return: '{'response': 402, 'time': 1678321141.5682676, 'error': 'User already connected.'}'
+2023-03-09 03:19:01,569 - DEBUG - utils - Function: 'process_response' running from module: 'client.py' and function: 'main', with params: '(({'response': 402, 'time': 1678321141.5682676, 'error': 'User already connected.'},), {})'
+2023-03-09 03:19:01,569 - CRITICAL - client - Something went wrong: 402, User already connected.
+2023-03-09 03:19:06,930 - DEBUG - client - ===== Start working ===== (main)
+2023-03-09 03:19:06,931 - DEBUG - utils - Function: 'get_params' running from module: 'client.py' and function: 'main', with params: '((), {})'
+2023-03-09 03:19:06,934 - DEBUG - utils - Function: 'get_params' return: '(10000, '127.0.0.1', 'Kate')'
+2023-03-09 03:19:06,934 - DEBUG - client - Trying to connect to the server....
+2023-03-09 03:19:06,934 - DEBUG - utils - Function: 'create_presence' running from module: 'client.py' and function: 'main', with params: '(('Kate',), {})'
+2023-03-09 03:19:06,934 - DEBUG - utils - Function: 'create_presence' return: '{'action': 'presence', 'time': 1678321146.9349868, 'type': 'status', 'user': {'account_name': 'Kate', 'status': 'Yep, I am here!'}}'
+2023-03-09 03:19:06,935 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39336), raddr=('127.0.0.1', 10000)>, {'action': 'presence', 'time': 1678321146.9349868, 'type': 'status', 'user': {'account_name': 'Kate', 'status': 'Yep, I am here!'}}), {})'
+2023-03-09 03:19:06,935 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 03:19:06,935 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39336), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 03:19:06,935 - DEBUG - client - Waiting data from server....
+2023-03-09 03:19:07,137 - DEBUG - utils - Function: 'receive_data' return: '{'response': 200, 'time': 1678321147.1368675}'
+2023-03-09 03:19:07,137 - DEBUG - utils - Function: 'process_response' running from module: 'client.py' and function: 'main', with params: '(({'response': 200, 'time': 1678321147.1368675},), {})'
+2023-03-09 03:19:07,137 - DEBUG - utils - Function: 'process_response' return: '200, OK'
+2023-03-09 03:19:07,137 - DEBUG - client - Answer from server: 200, OK
+2023-03-09 03:19:07,138 - DEBUG - client - Threading is running
+2023-03-09 03:19:07,139 - DEBUG - utils - Function: 'user_interface' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39336), raddr=('127.0.0.1', 10000)>, 'Kate'), {})'
+2023-03-09 03:19:07,140 - DEBUG - utils - Function: 'process_message_from_server' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39336), raddr=('127.0.0.1', 10000)>, 'Kate'), {})'
+2023-03-09 03:19:07,140 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39336), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 03:19:07,140 - DEBUG - client - Waiting data from server....
+2023-03-09 03:19:13,448 - DEBUG - utils - Function: 'create_user_message' running from module: 'client.py' and function: 'user_interface', with params: '(('sgsdg', 'Nik'), {'account_name': 'Kate'})'
+2023-03-09 03:19:13,448 - DEBUG - client - Message dict created: {'action': 'msg', 'time': 1678321153.4484997, 'from': 'Kate', 'message': 'sgsdg', 'to': 'Nik'}
+2023-03-09 03:19:13,448 - DEBUG - utils - Function: 'create_user_message' return: '{'action': 'msg', 'time': 1678321153.4484997, 'from': 'Kate', 'message': 'sgsdg', 'to': 'Nik'}'
+2023-03-09 03:19:13,448 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39336), raddr=('127.0.0.1', 10000)>, {'action': 'msg', 'time': 1678321153.4484997, 'from': 'Kate', 'message': 'sgsdg', 'to': 'Nik'}), {})'
+2023-03-09 03:19:13,449 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 03:19:13,449 - DEBUG - client - Sent to server: sgsdg
+2023-03-09 03:19:13,552 - DEBUG - utils - Function: 'receive_data' return: '{'action': 'msg', 'time': 1678321153.5516722, 'from': 'Kate', 'message': 'sgsdg', 'to': 'Nik'}'
+2023-03-09 03:19:13,552 - DEBUG - client - Message: sgsdg from user: Kate
+2023-03-09 03:19:13,552 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39328), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 03:19:13,552 - DEBUG - client - Waiting data from server....
+2023-03-09 03:19:26,496 - DEBUG - utils - Function: 'create_user_message' running from module: 'client.py' and function: 'user_interface', with params: '(('hi', 'Ivan'), {'account_name': 'Kate'})'
+2023-03-09 03:19:26,496 - DEBUG - client - Message dict created: {'action': 'msg', 'time': 1678321166.496419, 'from': 'Kate', 'message': 'hi', 'to': 'Ivan'}
+2023-03-09 03:19:26,496 - DEBUG - utils - Function: 'create_user_message' return: '{'action': 'msg', 'time': 1678321166.496419, 'from': 'Kate', 'message': 'hi', 'to': 'Ivan'}'
+2023-03-09 03:19:26,496 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39336), raddr=('127.0.0.1', 10000)>, {'action': 'msg', 'time': 1678321166.496419, 'from': 'Kate', 'message': 'hi', 'to': 'Ivan'}), {})'
+2023-03-09 03:19:26,496 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 03:19:26,497 - DEBUG - client - Sent to server: hi
+2023-03-09 03:19:26,578 - DEBUG - utils - Function: 'receive_data' return: '{'action': 'msg', 'time': 1678321166.5783293, 'from': 'Kate', 'message': 'hi', 'to': 'Ivan'}'
+2023-03-09 03:19:26,578 - DEBUG - client - Message: hi from user: Kate
+2023-03-09 03:19:26,579 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39326), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 03:19:26,579 - DEBUG - client - Waiting data from server....
+2023-03-09 03:19:36,671 - DEBUG - client - Message dict created: {'action': 'quit', 'time': 1678321176.671926}
+2023-03-09 03:19:36,672 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39336), raddr=('127.0.0.1', 10000)>, {'action': 'quit', 'time': 1678321176.671926}), {})'
+2023-03-09 03:19:36,672 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 03:19:37,173 - DEBUG - utils - Function: 'user_interface' return: 'None'
+2023-03-09 03:19:38,173 - DEBUG - client - ===== End working ===== (main)
+2023-03-09 03:19:41,943 - DEBUG - client - Message dict created: {'action': 'quit', 'time': 1678321181.9439037}
+2023-03-09 03:19:41,944 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39328), raddr=('127.0.0.1', 10000)>, {'action': 'quit', 'time': 1678321181.9439037}), {})'
+2023-03-09 03:19:41,947 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 03:19:42,209 - DEBUG - utils - Function: 'receive_data' return: 'None'
+2023-03-09 03:19:42,209 - DEBUG - client - Received 0 byte, perhaps disconnect from server. Client closed.
+2023-03-09 03:19:42,448 - DEBUG - utils - Function: 'user_interface' return: 'None'
+2023-03-09 03:19:42,710 - CRITICAL - client - Disconnect from server, 
+2023-03-09 03:19:42,710 - DEBUG - utils - Function: 'process_message_from_server' return: 'None'
+2023-03-09 03:19:43,088 - DEBUG - client - ===== End working ===== (main)
+2023-03-09 03:19:46,495 - DEBUG - client - Message dict created: {'action': 'quit', 'time': 1678321186.4959688}
+2023-03-09 03:19:46,496 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39326), raddr=('127.0.0.1', 10000)>, {'action': 'quit', 'time': 1678321186.4959688}), {})'
+2023-03-09 03:19:46,496 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 03:19:46,819 - DEBUG - utils - Function: 'receive_data' return: 'None'
+2023-03-09 03:19:46,819 - DEBUG - client - Received 0 byte, perhaps disconnect from server. Client closed.
+2023-03-09 03:19:46,997 - DEBUG - utils - Function: 'user_interface' return: 'None'
+2023-03-09 03:19:47,320 - CRITICAL - client - Disconnect from server, 
+2023-03-09 03:19:47,320 - DEBUG - utils - Function: 'process_message_from_server' return: 'None'
+2023-03-09 03:19:47,633 - DEBUG - client - ===== End working ===== (main)
+2023-03-09 03:20:49,947 - DEBUG - client - ===== Start working ===== (main)
+2023-03-09 03:20:49,949 - DEBUG - utils - Function: 'get_params' running from module: 'client.py' and function: 'main', with params: '((), {})'
+2023-03-09 03:20:49,951 - DEBUG - utils - Function: 'get_params' return: '(10000, '127.0.0.1', 'Ivan')'
+2023-03-09 03:20:49,951 - DEBUG - client - Trying to connect to the server....
+2023-03-09 03:20:49,952 - DEBUG - utils - Function: 'create_presence' running from module: 'client.py' and function: 'main', with params: '(('Ivan',), {})'
+2023-03-09 03:20:49,952 - DEBUG - utils - Function: 'create_presence' return: '{'action': 'presence', 'time': 1678321249.9521244, 'type': 'status', 'user': {'account_name': 'Ivan', 'status': 'Yep, I am here!'}}'
+2023-03-09 03:20:49,952 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39338), raddr=('127.0.0.1', 10000)>, {'action': 'presence', 'time': 1678321249.9521244, 'type': 'status', 'user': {'account_name': 'Ivan', 'status': 'Yep, I am here!'}}), {})'
+2023-03-09 03:20:49,952 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 03:20:49,952 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39338), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 03:20:49,952 - DEBUG - client - Waiting data from server....
+2023-03-09 03:20:50,300 - DEBUG - utils - Function: 'receive_data' return: '{'response': 200, 'time': 1678321250.2998116}'
+2023-03-09 03:20:50,300 - DEBUG - utils - Function: 'process_response' running from module: 'client.py' and function: 'main', with params: '(({'response': 200, 'time': 1678321250.2998116},), {})'
+2023-03-09 03:20:50,300 - DEBUG - utils - Function: 'process_response' return: '200, OK'
+2023-03-09 03:20:50,300 - DEBUG - client - Answer from server: 200, OK
+2023-03-09 03:20:50,301 - DEBUG - client - Threading is running
+2023-03-09 03:20:50,303 - DEBUG - utils - Function: 'user_interface' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39338), raddr=('127.0.0.1', 10000)>, 'Ivan'), {})'
+2023-03-09 03:20:50,303 - DEBUG - utils - Function: 'process_message_from_server' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39338), raddr=('127.0.0.1', 10000)>, 'Ivan'), {})'
+2023-03-09 03:20:50,303 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39338), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 03:20:50,303 - DEBUG - client - Waiting data from server....
+2023-03-09 03:21:15,871 - DEBUG - client - Message dict created: {'action': 'quit', 'time': 1678321275.871917}
+2023-03-09 03:21:15,872 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 39338), raddr=('127.0.0.1', 10000)>, {'action': 'quit', 'time': 1678321275.871917}), {})'
+2023-03-09 03:21:15,872 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 03:21:16,373 - DEBUG - utils - Function: 'user_interface' return: 'None'
+2023-03-09 03:21:17,333 - DEBUG - client - ===== End working ===== (main)
+2023-03-09 18:44:43,481 - DEBUG - client - ===== Start working ===== (main)
+2023-03-09 18:44:43,484 - DEBUG - utils - Function: 'get_params' running from module: 'client.py' and function: 'main', with params: '((), {})'
+2023-03-09 18:44:43,486 - DEBUG - utils - Function: 'get_params' return: '(10000, '127.0.0.1', 'Kate')'
+2023-03-09 18:44:43,486 - DEBUG - client - Trying to connect to the server....
+2023-03-09 18:44:43,487 - DEBUG - utils - Function: 'create_presence' running from module: 'client.py' and function: 'main', with params: '(('Kate',), {})'
+2023-03-09 18:44:43,487 - DEBUG - utils - Function: 'create_presence' return: '{'action': 'presence', 'time': 1678376683.48778, 'type': 'status', 'user': {'account_name': 'Kate', 'status': 'Yep, I am here!'}}'
+2023-03-09 18:44:43,487 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34066), raddr=('127.0.0.1', 10000)>, {'action': 'presence', 'time': 1678376683.48778, 'type': 'status', 'user': {'account_name': 'Kate', 'status': 'Yep, I am here!'}}), {})'
+2023-03-09 18:44:43,487 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 18:44:43,488 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34066), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 18:44:43,488 - DEBUG - client - Waiting data from server....
+2023-03-09 18:44:44,148 - DEBUG - utils - Function: 'receive_data' return: '{'response': 200, 'time': 1678376684.1481762}'
+2023-03-09 18:44:44,148 - DEBUG - utils - Function: 'process_response' running from module: 'client.py' and function: 'main', with params: '(({'response': 200, 'time': 1678376684.1481762},), {})'
+2023-03-09 18:44:44,149 - DEBUG - utils - Function: 'process_response' return: '200, OK'
+2023-03-09 18:44:44,149 - DEBUG - client - Answer from server: 200, OK
+2023-03-09 18:44:44,150 - DEBUG - client - Threading is running
+2023-03-09 18:44:44,151 - DEBUG - utils - Function: 'user_interface' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34066), raddr=('127.0.0.1', 10000)>, 'Kate'), {})'
+2023-03-09 18:44:44,151 - DEBUG - utils - Function: 'process_message_from_server' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34066), raddr=('127.0.0.1', 10000)>, 'Kate'), {})'
+2023-03-09 18:44:44,151 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34066), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 18:44:44,151 - DEBUG - client - Waiting data from server....
+2023-03-09 18:45:02,225 - DEBUG - client - ===== Start working ===== (main)
+2023-03-09 18:45:02,227 - DEBUG - utils - Function: 'get_params' running from module: 'client.py' and function: 'main', with params: '((), {})'
+2023-03-09 18:45:02,229 - DEBUG - utils - Function: 'get_params' return: '(10000, '127.0.0.1', 'Nik')'
+2023-03-09 18:45:02,229 - DEBUG - client - Trying to connect to the server....
+2023-03-09 18:45:02,229 - DEBUG - utils - Function: 'create_presence' running from module: 'client.py' and function: 'main', with params: '(('Nik',), {})'
+2023-03-09 18:45:02,229 - DEBUG - utils - Function: 'create_presence' return: '{'action': 'presence', 'time': 1678376702.229929, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}'
+2023-03-09 18:45:02,230 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34070), raddr=('127.0.0.1', 10000)>, {'action': 'presence', 'time': 1678376702.229929, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}), {})'
+2023-03-09 18:45:02,230 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 18:45:02,230 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34070), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 18:45:02,230 - DEBUG - client - Waiting data from server....
+2023-03-09 18:45:02,432 - DEBUG - utils - Function: 'receive_data' return: '{'response': 200, 'time': 1678376702.431664}'
+2023-03-09 18:45:02,432 - DEBUG - utils - Function: 'process_response' running from module: 'client.py' and function: 'main', with params: '(({'response': 200, 'time': 1678376702.431664},), {})'
+2023-03-09 18:45:02,432 - DEBUG - utils - Function: 'process_response' return: '200, OK'
+2023-03-09 18:45:02,432 - DEBUG - client - Answer from server: 200, OK
+2023-03-09 18:45:02,433 - DEBUG - client - Threading is running
+2023-03-09 18:45:02,434 - DEBUG - utils - Function: 'user_interface' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34070), raddr=('127.0.0.1', 10000)>, 'Nik'), {})'
+2023-03-09 18:45:02,435 - DEBUG - utils - Function: 'process_message_from_server' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34070), raddr=('127.0.0.1', 10000)>, 'Nik'), {})'
+2023-03-09 18:45:02,435 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34070), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 18:45:02,435 - DEBUG - client - Waiting data from server....
+2023-03-09 18:45:30,144 - DEBUG - utils - Function: 'create_user_message' running from module: 'client.py' and function: 'user_interface', with params: '(('hi', ''), {'account_name': 'Nik'})'
+2023-03-09 18:45:30,144 - DEBUG - client - Message dict created: {'action': 'msg', 'time': 1678376730.1449125, 'from': 'Nik', 'message': 'hi', 'to': ''}
+2023-03-09 18:45:30,144 - DEBUG - utils - Function: 'create_user_message' return: '{'action': 'msg', 'time': 1678376730.1449125, 'from': 'Nik', 'message': 'hi', 'to': ''}'
+2023-03-09 18:45:30,145 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34070), raddr=('127.0.0.1', 10000)>, {'action': 'msg', 'time': 1678376730.1449125, 'from': 'Nik', 'message': 'hi', 'to': ''}), {})'
+2023-03-09 18:45:30,145 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 18:45:30,145 - DEBUG - client - Sent to server: hi
+2023-03-09 18:45:30,285 - DEBUG - utils - Function: 'receive_data' return: '{'response': 400, 'time': 1678376730.2848206, 'error': 'Wrong user name'}'
+2023-03-09 18:45:30,285 - ERROR - client - Message from server {'response': 400, 'time': 1678376730.2848206, 'error': 'Wrong user name'}
+2023-03-09 18:45:30,286 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34070), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 18:45:30,286 - DEBUG - client - Waiting data from server....
+2023-03-09 18:45:44,576 - DEBUG - utils - Function: 'create_user_message' running from module: 'client.py' and function: 'user_interface', with params: '(('hi', 'Kate'), {'account_name': 'Nik'})'
+2023-03-09 18:45:44,576 - DEBUG - client - Message dict created: {'action': 'msg', 'time': 1678376744.576837, 'from': 'Nik', 'message': 'hi', 'to': 'Kate'}
+2023-03-09 18:45:44,576 - DEBUG - utils - Function: 'create_user_message' return: '{'action': 'msg', 'time': 1678376744.576837, 'from': 'Nik', 'message': 'hi', 'to': 'Kate'}'
+2023-03-09 18:45:44,577 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34070), raddr=('127.0.0.1', 10000)>, {'action': 'msg', 'time': 1678376744.576837, 'from': 'Nik', 'message': 'hi', 'to': 'Kate'}), {})'
+2023-03-09 18:45:44,577 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 18:45:44,577 - DEBUG - client - Sent to server: hi
+2023-03-09 18:45:44,713 - DEBUG - utils - Function: 'receive_data' return: '{'action': 'msg', 'time': 1678376744.713337, 'from': 'Nik', 'message': 'hi', 'to': 'Kate'}'
+2023-03-09 18:45:44,713 - DEBUG - client - Message: hi from user: Nik
+2023-03-09 18:45:44,714 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34066), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 18:45:44,714 - DEBUG - client - Waiting data from server....
+2023-03-09 18:45:58,464 - DEBUG - utils - Function: 'create_user_message' running from module: 'client.py' and function: 'user_interface', with params: '(('hiiiiiiii', 'Kate'), {'account_name': 'Kate'})'
+2023-03-09 18:45:58,464 - DEBUG - client - Message dict created: {'action': 'msg', 'time': 1678376758.4647279, 'from': 'Kate', 'message': 'hiiiiiiii', 'to': 'Kate'}
+2023-03-09 18:45:58,464 - DEBUG - utils - Function: 'create_user_message' return: '{'action': 'msg', 'time': 1678376758.4647279, 'from': 'Kate', 'message': 'hiiiiiiii', 'to': 'Kate'}'
+2023-03-09 18:45:58,465 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34066), raddr=('127.0.0.1', 10000)>, {'action': 'msg', 'time': 1678376758.4647279, 'from': 'Kate', 'message': 'hiiiiiiii', 'to': 'Kate'}), {})'
+2023-03-09 18:45:58,465 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 18:45:58,465 - DEBUG - client - Sent to server: hiiiiiiii
+2023-03-09 18:45:58,540 - DEBUG - utils - Function: 'receive_data' return: '{'action': 'msg', 'time': 1678376758.5401595, 'from': 'Kate', 'message': 'hiiiiiiii', 'to': 'Kate'}'
+2023-03-09 18:45:58,540 - DEBUG - client - Message: hiiiiiiii from user: Kate
+2023-03-09 18:45:58,541 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34066), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 18:45:58,541 - DEBUG - client - Waiting data from server....
+2023-03-09 18:46:14,112 - DEBUG - utils - Function: 'create_user_message' running from module: 'client.py' and function: 'user_interface', with params: '(('hiiiiiii', 'Nik'), {'account_name': 'Kate'})'
+2023-03-09 18:46:14,112 - DEBUG - client - Message dict created: {'action': 'msg', 'time': 1678376774.1127858, 'from': 'Kate', 'message': 'hiiiiiii', 'to': 'Nik'}
+2023-03-09 18:46:14,112 - DEBUG - utils - Function: 'create_user_message' return: '{'action': 'msg', 'time': 1678376774.1127858, 'from': 'Kate', 'message': 'hiiiiiii', 'to': 'Nik'}'
+2023-03-09 18:46:14,113 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34066), raddr=('127.0.0.1', 10000)>, {'action': 'msg', 'time': 1678376774.1127858, 'from': 'Kate', 'message': 'hiiiiiii', 'to': 'Nik'}), {})'
+2023-03-09 18:46:14,113 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 18:46:14,113 - DEBUG - client - Sent to server: hiiiiiii
+2023-03-09 18:46:14,171 - DEBUG - utils - Function: 'receive_data' return: '{'action': 'msg', 'time': 1678376774.1712875, 'from': 'Kate', 'message': 'hiiiiiii', 'to': 'Nik'}'
+2023-03-09 18:46:14,171 - DEBUG - client - Message: hiiiiiii from user: Kate
+2023-03-09 18:46:14,172 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34070), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 18:46:14,172 - DEBUG - client - Waiting data from server....
+2023-03-09 18:46:47,464 - DEBUG - client - Message dict created: {'action': 'quit', 'time': 1678376807.464274}
+2023-03-09 18:46:47,464 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34070), raddr=('127.0.0.1', 10000)>, {'action': 'quit', 'time': 1678376807.464274}), {})'
+2023-03-09 18:46:47,464 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 18:46:47,965 - DEBUG - utils - Function: 'user_interface' return: 'None'
+2023-03-09 18:46:48,556 - DEBUG - client - ===== End working ===== (main)
+2023-03-09 18:46:52,888 - DEBUG - client - Message dict created: {'action': 'quit', 'time': 1678376812.8883944}
+2023-03-09 18:46:52,888 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34066), raddr=('127.0.0.1', 10000)>, {'action': 'quit', 'time': 1678376812.8883944}), {})'
+2023-03-09 18:46:52,888 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 18:46:53,243 - DEBUG - utils - Function: 'receive_data' return: 'None'
+2023-03-09 18:46:53,243 - DEBUG - client - Received 0 byte, perhaps disconnect from server. Client closed.
+2023-03-09 18:46:53,389 - DEBUG - utils - Function: 'user_interface' return: 'None'
+2023-03-09 18:46:53,744 - CRITICAL - client - Disconnect from server, 
+2023-03-09 18:46:53,744 - DEBUG - utils - Function: 'process_message_from_server' return: 'None'
+2023-03-09 18:46:54,300 - DEBUG - client - ===== End working ===== (main)
+2023-03-09 18:48:12,001 - DEBUG - client - ===== Start working ===== (main)
+2023-03-09 18:48:12,003 - DEBUG - utils - Function: 'get_params' running from module: 'client.py' and function: 'main', with params: '((), {})'
+2023-03-09 18:48:12,005 - DEBUG - utils - Function: 'get_params' return: '(10000, '127.0.0.1', 'Kate')'
+2023-03-09 18:48:12,005 - DEBUG - client - Trying to connect to the server....
+2023-03-09 18:48:12,006 - DEBUG - utils - Function: 'create_presence' running from module: 'client.py' and function: 'main', with params: '(('Kate',), {})'
+2023-03-09 18:48:12,006 - DEBUG - utils - Function: 'create_presence' return: '{'action': 'presence', 'time': 1678376892.0062003, 'type': 'status', 'user': {'account_name': 'Kate', 'status': 'Yep, I am here!'}}'
+2023-03-09 18:48:12,006 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34072), raddr=('127.0.0.1', 10000)>, {'action': 'presence', 'time': 1678376892.0062003, 'type': 'status', 'user': {'account_name': 'Kate', 'status': 'Yep, I am here!'}}), {})'
+2023-03-09 18:48:12,006 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 18:48:12,006 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34072), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 18:48:12,006 - DEBUG - client - Waiting data from server....
+2023-03-09 18:48:12,574 - DEBUG - utils - Function: 'receive_data' return: '{'response': 200, 'time': 1678376892.5742092}'
+2023-03-09 18:48:12,575 - DEBUG - utils - Function: 'process_response' running from module: 'client.py' and function: 'main', with params: '(({'response': 200, 'time': 1678376892.5742092},), {})'
+2023-03-09 18:48:12,575 - DEBUG - utils - Function: 'process_response' return: '200, OK'
+2023-03-09 18:48:12,575 - DEBUG - client - Answer from server: 200, OK
+2023-03-09 18:48:12,577 - DEBUG - client - Threading is running
+2023-03-09 18:48:12,577 - DEBUG - utils - Function: 'process_message_from_server' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34072), raddr=('127.0.0.1', 10000)>, 'Kate'), {})'
+2023-03-09 18:48:12,577 - DEBUG - utils - Function: 'user_interface' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34072), raddr=('127.0.0.1', 10000)>, 'Kate'), {})'
+2023-03-09 18:48:12,578 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34072), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 18:48:12,578 - DEBUG - client - Waiting data from server....
+2023-03-09 18:48:15,279 - DEBUG - client - ===== Start working ===== (main)
+2023-03-09 18:48:15,281 - DEBUG - utils - Function: 'get_params' running from module: 'client.py' and function: 'main', with params: '((), {})'
+2023-03-09 18:48:15,283 - DEBUG - utils - Function: 'get_params' return: '(10000, '127.0.0.1', 'Nik')'
+2023-03-09 18:48:15,283 - DEBUG - client - Trying to connect to the server....
+2023-03-09 18:48:15,283 - DEBUG - utils - Function: 'create_presence' running from module: 'client.py' and function: 'main', with params: '(('Nik',), {})'
+2023-03-09 18:48:15,283 - DEBUG - utils - Function: 'create_presence' return: '{'action': 'presence', 'time': 1678376895.283851, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}'
+2023-03-09 18:48:15,284 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34074), raddr=('127.0.0.1', 10000)>, {'action': 'presence', 'time': 1678376895.283851, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}), {})'
+2023-03-09 18:48:15,284 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 18:48:15,284 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'main', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34074), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 18:48:15,284 - DEBUG - client - Waiting data from server....
+2023-03-09 18:48:15,486 - DEBUG - utils - Function: 'receive_data' return: '{'response': 200, 'time': 1678376895.485642}'
+2023-03-09 18:48:15,486 - DEBUG - utils - Function: 'process_response' running from module: 'client.py' and function: 'main', with params: '(({'response': 200, 'time': 1678376895.485642},), {})'
+2023-03-09 18:48:15,486 - DEBUG - utils - Function: 'process_response' return: '200, OK'
+2023-03-09 18:48:15,486 - DEBUG - client - Answer from server: 200, OK
+2023-03-09 18:48:15,487 - DEBUG - client - Threading is running
+2023-03-09 18:48:15,489 - DEBUG - utils - Function: 'user_interface' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34074), raddr=('127.0.0.1', 10000)>, 'Nik'), {})'
+2023-03-09 18:48:15,489 - DEBUG - utils - Function: 'process_message_from_server' running from module: 'threading.py' and function: 'run', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34074), raddr=('127.0.0.1', 10000)>, 'Nik'), {})'
+2023-03-09 18:48:15,489 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34074), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 18:48:15,489 - DEBUG - client - Waiting data from server....
+2023-03-09 18:48:23,264 - DEBUG - utils - Function: 'create_user_message' running from module: 'client.py' and function: 'user_interface', with params: '(('gggggggg', 'Kate'), {'account_name': 'Nik'})'
+2023-03-09 18:48:23,264 - DEBUG - client - Message dict created: {'action': 'msg', 'time': 1678376903.2649047, 'from': 'Nik', 'message': 'gggggggg', 'to': 'Kate'}
+2023-03-09 18:48:23,264 - DEBUG - utils - Function: 'create_user_message' return: '{'action': 'msg', 'time': 1678376903.2649047, 'from': 'Nik', 'message': 'gggggggg', 'to': 'Kate'}'
+2023-03-09 18:48:23,265 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34074), raddr=('127.0.0.1', 10000)>, {'action': 'msg', 'time': 1678376903.2649047, 'from': 'Nik', 'message': 'gggggggg', 'to': 'Kate'}), {})'
+2023-03-09 18:48:23,265 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 18:48:23,265 - DEBUG - client - Sent to server: gggggggg
+2023-03-09 18:48:23,303 - DEBUG - utils - Function: 'receive_data' return: '{'action': 'msg', 'time': 1678376903.302631, 'from': 'Nik', 'message': 'gggggggg', 'to': 'Kate'}'
+2023-03-09 18:48:23,303 - DEBUG - client - Message: gggggggg from user: Nik
+2023-03-09 18:48:23,303 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34072), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 18:48:23,303 - DEBUG - client - Waiting data from server....
+2023-03-09 18:48:41,792 - DEBUG - utils - Function: 'create_user_message' running from module: 'client.py' and function: 'user_interface', with params: '(('hi', 'Nik'), {'account_name': 'Kate'})'
+2023-03-09 18:48:41,792 - DEBUG - client - Message dict created: {'action': 'msg', 'time': 1678376921.7927144, 'from': 'Kate', 'message': 'hi', 'to': 'Nik'}
+2023-03-09 18:48:41,792 - DEBUG - utils - Function: 'create_user_message' return: '{'action': 'msg', 'time': 1678376921.7927144, 'from': 'Kate', 'message': 'hi', 'to': 'Nik'}'
+2023-03-09 18:48:41,793 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34072), raddr=('127.0.0.1', 10000)>, {'action': 'msg', 'time': 1678376921.7927144, 'from': 'Kate', 'message': 'hi', 'to': 'Nik'}), {})'
+2023-03-09 18:48:41,793 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 18:48:41,793 - DEBUG - client - Sent to server: hi
+2023-03-09 18:48:41,939 - DEBUG - utils - Function: 'receive_data' return: '{'action': 'msg', 'time': 1678376921.9388928, 'from': 'Kate', 'message': 'hi', 'to': 'Nik'}'
+2023-03-09 18:48:41,939 - DEBUG - client - Message: hi from user: Kate
+2023-03-09 18:48:41,940 - DEBUG - utils - Function: 'receive_data' running from module: 'client.py' and function: 'process_message_from_server', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34074), raddr=('127.0.0.1', 10000)>,), {})'
+2023-03-09 18:48:41,940 - DEBUG - client - Waiting data from server....
+2023-03-09 18:48:44,448 - DEBUG - client - Message dict created: {'action': 'quit', 'time': 1678376924.448241}
+2023-03-09 18:48:44,448 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34072), raddr=('127.0.0.1', 10000)>, {'action': 'quit', 'time': 1678376924.448241}), {})'
+2023-03-09 18:48:44,448 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 18:48:44,746 - DEBUG - utils - Function: 'receive_data' return: 'None'
+2023-03-09 18:48:44,746 - DEBUG - client - Received 0 byte, perhaps disconnect from server. Client closed.
+2023-03-09 18:48:44,949 - DEBUG - utils - Function: 'user_interface' return: 'None'
+2023-03-09 18:48:45,247 - CRITICAL - client - Disconnect from server, 
+2023-03-09 18:48:45,247 - DEBUG - utils - Function: 'process_message_from_server' return: 'None'
+2023-03-09 18:48:45,614 - DEBUG - client - ===== End working ===== (main)
+2023-03-09 18:48:51,096 - DEBUG - client - Message dict created: {'action': 'quit', 'time': 1678376931.096358}
+2023-03-09 18:48:51,096 - DEBUG - utils - Function: 'send_data' running from module: 'client.py' and function: 'user_interface', with params: '((<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 34074), raddr=('127.0.0.1', 10000)>, {'action': 'quit', 'time': 1678376931.096358}), {})'
+2023-03-09 18:48:51,096 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-09 18:48:51,597 - DEBUG - utils - Function: 'user_interface' return: 'None'
+2023-03-09 18:48:52,530 - DEBUG - client - ===== End working ===== (main)
