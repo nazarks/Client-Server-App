@@ -1,0 +1,199 @@
+2023-03-19 22:22:29,323 - DEBUG - server - ===== Start working ===== (main)
+2023-03-19 22:22:29,333 - DEBUG - utils - Function: 'get_params' running from module: 'server.py' and function: 'main', with params: '((), {})'
+2023-03-19 22:22:29,333 - DEBUG - utils - Function: 'get_params' return: '(7777, '')'
+2023-03-19 22:22:29,354 - DEBUG - utils - Function: 'run' running from module: 'server.py' and function: 'main', with params: '((<__main__.Server object at 0x7f0ff57c1630>,), {})'
+2023-03-19 22:22:29,355 - DEBUG - utils - Function: 'run' return: 'None'
+2023-03-19 22:22:29,355 - DEBUG - server - Server with params ('0.0.0.0', 7777),  is starting...
+2023-03-19 22:22:41,369 - DEBUG - server - Connect from client accepted: Client id: 6, ('127.0.0.1', 56074)
+2023-03-19 22:22:41,370 - DEBUG - utils - Function: 'process_requests' running from module: 'server.py' and function: 'main_loop', with params: '((<__main__.Server object at 0x7f0ff57c1630>, [<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56074)>]), {})'
+2023-03-19 22:22:41,370 - DEBUG - utils - Function: 'receive_data' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7f0ff57c1630>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56074)>), {})'
+2023-03-19 22:22:41,371 - DEBUG - utils - Function: 'receive_data' return: '{'action': 'presence', 'time': 1679253760.3765428, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}'
+2023-03-19 22:22:41,371 - DEBUG - utils - Function: 'process_client_message' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7f0ff57c1630>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56074)>, {'action': 'presence', 'time': 1679253760.3765428, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}), {})'
+2023-03-19 22:22:41,388 - DEBUG - utils - Function: 'send_data' running from module: 'server.py' and function: 'process_client_message', with params: '((<__main__.Server object at 0x7f0ff57c1630>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56074)>, {'response': 200, 'time': 1679253761.3883333}), {})'
+2023-03-19 22:22:41,388 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-19 22:22:41,389 - DEBUG - utils - Function: 'process_client_message' return: 'None'
+2023-03-19 22:22:41,389 - DEBUG - server - Get request from Client id: 6, ('127.0.0.1', 56074), data: {'action': 'presence', 'time': 1679253760.3765428, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-03-19 22:22:41,389 - DEBUG - utils - Function: 'process_requests' return: 'None'
+2023-03-19 22:22:57,792 - DEBUG - server - Connect from client accepted: Client id: 7, ('127.0.0.1', 56076)
+2023-03-19 22:22:57,992 - DEBUG - utils - Function: 'process_requests' running from module: 'server.py' and function: 'main_loop', with params: '((<__main__.Server object at 0x7f0ff57c1630>, [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56076)>]), {})'
+2023-03-19 22:22:57,993 - DEBUG - utils - Function: 'receive_data' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7f0ff57c1630>, <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56076)>), {})'
+2023-03-19 22:22:57,993 - DEBUG - utils - Function: 'receive_data' return: '{'action': 'presence', 'time': 1679253777.792335, 'type': 'status', 'user': {'account_name': 'Kate', 'status': 'Yep, I am here!'}}'
+2023-03-19 22:22:57,993 - DEBUG - utils - Function: 'process_client_message' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7f0ff57c1630>, <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56076)>, {'action': 'presence', 'time': 1679253777.792335, 'type': 'status', 'user': {'account_name': 'Kate', 'status': 'Yep, I am here!'}}), {})'
+2023-03-19 22:22:58,006 - DEBUG - utils - Function: 'send_data' running from module: 'server.py' and function: 'process_client_message', with params: '((<__main__.Server object at 0x7f0ff57c1630>, <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56076)>, {'response': 200, 'time': 1679253778.0062191}), {})'
+2023-03-19 22:22:58,006 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-19 22:22:58,006 - DEBUG - utils - Function: 'process_client_message' return: 'None'
+2023-03-19 22:22:58,006 - DEBUG - server - Get request from Client id: 7, ('127.0.0.1', 56076), data: {'action': 'presence', 'time': 1679253777.792335, 'type': 'status', 'user': {'account_name': 'Kate', 'status': 'Yep, I am here!'}}
+2023-03-19 22:22:58,007 - DEBUG - utils - Function: 'process_requests' return: 'None'
+2023-03-19 22:23:06,420 - DEBUG - utils - Function: 'process_requests' running from module: 'server.py' and function: 'main_loop', with params: '((<__main__.Server object at 0x7f0ff57c1630>, [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56076)>]), {})'
+2023-03-19 22:23:06,421 - DEBUG - utils - Function: 'receive_data' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7f0ff57c1630>, <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56076)>), {})'
+2023-03-19 22:23:06,421 - DEBUG - utils - Function: 'receive_data' return: '{'action': 'msg', 'time': 1679253786.368264, 'from': 'Kate', 'message': 'hi', 'to': 'Nik'}'
+2023-03-19 22:23:06,421 - DEBUG - utils - Function: 'process_client_message' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7f0ff57c1630>, <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56076)>, {'action': 'msg', 'time': 1679253786.368264, 'from': 'Kate', 'message': 'hi', 'to': 'Nik'}), {})'
+2023-03-19 22:23:06,421 - DEBUG - utils - Function: 'process_client_message' return: 'None'
+2023-03-19 22:23:06,422 - DEBUG - server - Get request from Client id: 7, ('127.0.0.1', 56076), data: {'action': 'msg', 'time': 1679253786.368264, 'from': 'Kate', 'message': 'hi', 'to': 'Nik'}
+2023-03-19 22:23:06,422 - DEBUG - utils - Function: 'process_requests' return: 'None'
+2023-03-19 22:23:06,422 - DEBUG - utils - Function: 'write_responses' running from module: 'server.py' and function: 'main_loop', with params: '((<__main__.Server object at 0x7f0ff57c1630>,), {})'
+2023-03-19 22:23:06,422 - DEBUG - utils - Function: 'send_data' running from module: 'server.py' and function: 'write_responses', with params: '((<__main__.Server object at 0x7f0ff57c1630>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56074)>, {'action': 'msg', 'time': 1679253786.4224563, 'from': 'Kate', 'message': 'hi', 'to': 'Nik'}), {})'
+2023-03-19 22:23:06,422 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-19 22:23:06,423 - DEBUG - server - Sent response to Client id: 6, ('127.0.0.1', 56074), data: {'action': 'msg', 'time': 1679253786.4224563, 'from': 'Kate', 'message': 'hi', 'to': 'Nik'}
+2023-03-19 22:23:06,423 - DEBUG - utils - Function: 'write_responses' return: 'None'
+2023-03-19 22:23:14,636 - DEBUG - utils - Function: 'process_requests' running from module: 'server.py' and function: 'main_loop', with params: '((<__main__.Server object at 0x7f0ff57c1630>, [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56076)>]), {})'
+2023-03-19 22:23:14,636 - DEBUG - utils - Function: 'receive_data' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7f0ff57c1630>, <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56076)>), {})'
+2023-03-19 22:23:14,636 - DEBUG - utils - Function: 'receive_data' return: '{'action': 'msg', 'time': 1679253794.4883404, 'from': 'Kate', 'message': 'hi', 'to': 'Kate'}'
+2023-03-19 22:23:14,637 - DEBUG - utils - Function: 'process_client_message' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7f0ff57c1630>, <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56076)>, {'action': 'msg', 'time': 1679253794.4883404, 'from': 'Kate', 'message': 'hi', 'to': 'Kate'}), {})'
+2023-03-19 22:23:14,637 - DEBUG - utils - Function: 'process_client_message' return: 'None'
+2023-03-19 22:23:14,637 - DEBUG - server - Get request from Client id: 7, ('127.0.0.1', 56076), data: {'action': 'msg', 'time': 1679253794.4883404, 'from': 'Kate', 'message': 'hi', 'to': 'Kate'}
+2023-03-19 22:23:14,637 - DEBUG - utils - Function: 'process_requests' return: 'None'
+2023-03-19 22:23:14,637 - DEBUG - utils - Function: 'write_responses' running from module: 'server.py' and function: 'main_loop', with params: '((<__main__.Server object at 0x7f0ff57c1630>,), {})'
+2023-03-19 22:23:14,638 - DEBUG - utils - Function: 'send_data' running from module: 'server.py' and function: 'write_responses', with params: '((<__main__.Server object at 0x7f0ff57c1630>, <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56076)>, {'action': 'msg', 'time': 1679253794.637974, 'from': 'Kate', 'message': 'hi', 'to': 'Kate'}), {})'
+2023-03-19 22:23:14,638 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-19 22:23:14,638 - DEBUG - server - Sent response to Client id: 7, ('127.0.0.1', 56076), data: {'action': 'msg', 'time': 1679253794.637974, 'from': 'Kate', 'message': 'hi', 'to': 'Kate'}
+2023-03-19 22:23:14,638 - DEBUG - utils - Function: 'write_responses' return: 'None'
+2023-03-19 22:25:14,366 - DEBUG - server - ===== Start working ===== (main)
+2023-03-19 22:25:14,375 - DEBUG - utils - Function: 'get_params' running from module: 'server.py' and function: 'main', with params: '((), {})'
+2023-03-19 22:25:14,375 - DEBUG - utils - Function: 'get_params' return: '(7777, '')'
+2023-03-19 22:25:14,397 - DEBUG - utils - Function: 'run' running from module: 'server.py' and function: 'main', with params: '((<__main__.Server object at 0x7fdefdef1600>,), {})'
+2023-03-19 22:25:14,397 - DEBUG - utils - Function: 'run' return: 'None'
+2023-03-19 22:25:14,397 - DEBUG - server - Server with params ('0.0.0.0', 7777),  is starting...
+2023-03-19 22:25:21,606 - DEBUG - server - Connect from client accepted: Client id: 6, ('127.0.0.1', 56078)
+2023-03-19 22:25:21,607 - DEBUG - utils - Function: 'process_requests' running from module: 'server.py' and function: 'main_loop', with params: '((<__main__.Server object at 0x7fdefdef1600>, [<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56078)>]), {})'
+2023-03-19 22:25:21,607 - DEBUG - utils - Function: 'receive_data' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7fdefdef1600>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56078)>), {})'
+2023-03-19 22:25:21,607 - DEBUG - utils - Function: 'receive_data' return: '{'action': 'presence', 'time': 1679253921.0163882, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}'
+2023-03-19 22:25:21,608 - DEBUG - utils - Function: 'process_client_message' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7fdefdef1600>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56078)>, {'action': 'presence', 'time': 1679253921.0163882, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}), {})'
+2023-03-19 22:25:21,648 - DEBUG - utils - Function: 'send_data' running from module: 'server.py' and function: 'process_client_message', with params: '((<__main__.Server object at 0x7fdefdef1600>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56078)>, {'response': 200, 'time': 1679253921.6479187}), {})'
+2023-03-19 22:25:21,648 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-19 22:25:21,648 - DEBUG - utils - Function: 'process_client_message' return: 'None'
+2023-03-19 22:25:21,648 - DEBUG - server - Get request from Client id: 6, ('127.0.0.1', 56078), data: {'action': 'presence', 'time': 1679253921.0163882, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-03-19 22:25:21,648 - DEBUG - utils - Function: 'process_requests' return: 'None'
+2023-03-19 22:25:35,792 - DEBUG - server - Connect from client accepted: Client id: 7, ('127.0.0.1', 56080)
+2023-03-19 22:25:35,992 - DEBUG - utils - Function: 'process_requests' running from module: 'server.py' and function: 'main_loop', with params: '((<__main__.Server object at 0x7fdefdef1600>, [<socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56080)>]), {})'
+2023-03-19 22:25:35,993 - DEBUG - utils - Function: 'receive_data' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7fdefdef1600>, <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56080)>), {})'
+2023-03-19 22:25:35,993 - DEBUG - utils - Function: 'receive_data' return: '{'action': 'presence', 'time': 1679253935.7923467, 'type': 'status', 'user': {'account_name': 'Kate', 'status': 'Yep, I am here!'}}'
+2023-03-19 22:25:35,993 - DEBUG - utils - Function: 'process_client_message' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7fdefdef1600>, <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56080)>, {'action': 'presence', 'time': 1679253935.7923467, 'type': 'status', 'user': {'account_name': 'Kate', 'status': 'Yep, I am here!'}}), {})'
+2023-03-19 22:25:36,006 - DEBUG - utils - Function: 'send_data' running from module: 'server.py' and function: 'process_client_message', with params: '((<__main__.Server object at 0x7fdefdef1600>, <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56080)>, {'response': 200, 'time': 1679253936.0061665}), {})'
+2023-03-19 22:25:36,006 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-19 22:25:36,006 - DEBUG - utils - Function: 'process_client_message' return: 'None'
+2023-03-19 22:25:36,006 - DEBUG - server - Get request from Client id: 7, ('127.0.0.1', 56080), data: {'action': 'presence', 'time': 1679253935.7923467, 'type': 'status', 'user': {'account_name': 'Kate', 'status': 'Yep, I am here!'}}
+2023-03-19 22:25:36,006 - DEBUG - utils - Function: 'process_requests' return: 'None'
+2023-03-19 22:26:55,371 - DEBUG - server - ===== Start working ===== (main)
+2023-03-19 22:26:55,379 - DEBUG - utils - Function: 'get_params' running from module: 'server.py' and function: 'main', with params: '((), {})'
+2023-03-19 22:26:55,380 - DEBUG - utils - Function: 'get_params' return: '(7777, '')'
+2023-03-19 22:26:55,400 - DEBUG - utils - Function: 'run' running from module: 'server.py' and function: 'main', with params: '((<__main__.Server object at 0x7fab095e5600>,), {})'
+2023-03-19 22:26:55,400 - DEBUG - utils - Function: 'run' return: 'None'
+2023-03-19 22:26:55,400 - CRITICAL - server - Error starting server [Errno 98] Address already in use
+2023-03-19 22:31:51,201 - DEBUG - server - ===== Start working ===== (main)
+2023-03-19 22:31:51,211 - DEBUG - utils - Function: 'get_params' running from module: 'server.py' and function: 'main', with params: '((), {})'
+2023-03-19 22:31:51,212 - DEBUG - utils - Function: 'get_params' return: '(7777, '')'
+2023-03-19 22:31:51,238 - DEBUG - utils - Function: 'run' running from module: 'server.py' and function: 'main', with params: '((<__main__.Server object at 0x7f773df9d600>,), {})'
+2023-03-19 22:31:51,238 - DEBUG - utils - Function: 'run' return: 'None'
+2023-03-19 22:31:51,238 - DEBUG - server - Server with params ('0.0.0.0', 7777),  is starting...
+2023-03-19 22:32:06,857 - DEBUG - server - Connect from client accepted: Client id: 6, ('127.0.0.1', 56082)
+2023-03-19 22:32:06,858 - DEBUG - utils - Function: 'process_requests' running from module: 'server.py' and function: 'main_loop', with params: '((<__main__.Server object at 0x7f773df9d600>, [<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56082)>]), {})'
+2023-03-19 22:32:06,858 - DEBUG - utils - Function: 'receive_data' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7f773df9d600>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56082)>), {})'
+2023-03-19 22:32:06,859 - DEBUG - utils - Function: 'receive_data' return: '{'action': 'presence', 'time': 1679254326.648422, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}'
+2023-03-19 22:32:06,859 - DEBUG - utils - Function: 'process_client_message' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7f773df9d600>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56082)>, {'action': 'presence', 'time': 1679254326.648422, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}), {})'
+2023-03-19 22:32:06,874 - DEBUG - utils - Function: 'send_data' running from module: 'server.py' and function: 'process_client_message', with params: '((<__main__.Server object at 0x7f773df9d600>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56082)>, {'response': 200, 'time': 1679254326.8740783}), {})'
+2023-03-19 22:32:06,874 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-19 22:32:06,874 - DEBUG - utils - Function: 'process_client_message' return: 'None'
+2023-03-19 22:32:06,874 - DEBUG - server - Get request from Client id: 6, ('127.0.0.1', 56082), data: {'action': 'presence', 'time': 1679254326.648422, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-03-19 22:32:06,875 - DEBUG - utils - Function: 'process_requests' return: 'None'
+2023-03-19 22:32:18,093 - DEBUG - utils - Function: 'process_requests' running from module: 'server.py' and function: 'main_loop', with params: '((<__main__.Server object at 0x7f773df9d600>, [<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56082)>]), {})'
+2023-03-19 22:32:18,093 - DEBUG - utils - Function: 'receive_data' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7f773df9d600>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56082)>), {})'
+2023-03-19 22:32:18,093 - DEBUG - utils - Function: 'receive_data' return: '{'action': 'msg', 'time': 1679254337.9610236, 'from': 'Nik', 'message': 'hi', 'to': 'Kate'}'
+2023-03-19 22:32:18,094 - DEBUG - utils - Function: 'process_client_message' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7f773df9d600>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56082)>, {'action': 'msg', 'time': 1679254337.9610236, 'from': 'Nik', 'message': 'hi', 'to': 'Kate'}), {})'
+2023-03-19 22:32:18,094 - DEBUG - utils - Function: 'send_data' running from module: 'server.py' and function: 'process_client_message', with params: '((<__main__.Server object at 0x7f773df9d600>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56082)>, {'response': 400, 'time': 1679254338.0943255, 'error': 'Wrong user name'}), {})'
+2023-03-19 22:32:18,094 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-19 22:32:18,094 - DEBUG - utils - Function: 'process_client_message' return: 'None'
+2023-03-19 22:32:18,094 - DEBUG - server - Get request from Client id: 6, ('127.0.0.1', 56082), data: {'action': 'msg', 'time': 1679254337.9610236, 'from': 'Nik', 'message': 'hi', 'to': 'Kate'}
+2023-03-19 22:32:18,095 - DEBUG - utils - Function: 'process_requests' return: 'None'
+2023-03-19 22:35:26,168 - DEBUG - server - ===== Start working ===== (main)
+2023-03-19 22:35:26,179 - DEBUG - utils - Function: 'get_params' running from module: 'server.py' and function: 'main', with params: '((), {})'
+2023-03-19 22:35:26,179 - DEBUG - utils - Function: 'get_params' return: '(7777, '')'
+2023-03-19 22:35:26,200 - DEBUG - utils - Function: 'run' running from module: 'server.py' and function: 'main', with params: '((<__main__.Server object at 0x7f63e7c99600>,), {})'
+2023-03-19 22:35:26,201 - CRITICAL - server - Error starting server [Errno 98] Address already in use
+2023-03-19 22:35:26,201 - DEBUG - utils - Function: 'run' return: 'None'
+2023-03-19 22:37:03,107 - DEBUG - server - ===== Start working ===== (main)
+2023-03-19 22:37:03,116 - DEBUG - utils - Function: 'get_params' running from module: 'server.py' and function: 'main', with params: '((), {})'
+2023-03-19 22:37:03,116 - DEBUG - utils - Function: 'get_params' return: '(7777, '')'
+2023-03-19 22:37:03,133 - DEBUG - utils - Function: 'run' running from module: 'server.py' and function: 'main', with params: '((<__main__.Server object at 0x7fb8dab15600>,), {})'
+2023-03-19 22:37:03,134 - DEBUG - utils - Function: 'run' return: 'None'
+2023-03-19 22:37:03,134 - DEBUG - server - Server with params ('0.0.0.0', 7777),  is starting...
+2023-03-19 22:37:07,073 - DEBUG - server - ===== Start working ===== (main)
+2023-03-19 22:37:07,082 - DEBUG - utils - Function: 'get_params' running from module: 'server.py' and function: 'main', with params: '((), {})'
+2023-03-19 22:37:07,083 - DEBUG - utils - Function: 'get_params' return: '(7777, '')'
+2023-03-19 22:37:07,110 - DEBUG - utils - Function: 'run' running from module: 'server.py' and function: 'main', with params: '((<__main__.Server object at 0x7f8f80d71600>,), {})'
+2023-03-19 22:37:07,110 - DEBUG - utils - Function: 'run' return: 'None'
+2023-03-19 22:37:07,110 - DEBUG - server - Server with params ('0.0.0.0', 7777),  is starting...
+2023-03-19 22:37:11,102 - DEBUG - server - ===== Start working ===== (main)
+2023-03-19 22:37:11,111 - DEBUG - utils - Function: 'get_params' running from module: 'server.py' and function: 'main', with params: '((), {})'
+2023-03-19 22:37:11,112 - DEBUG - utils - Function: 'get_params' return: '(7777, '')'
+2023-03-19 22:37:11,133 - DEBUG - utils - Function: 'run' running from module: 'server.py' and function: 'main', with params: '((<__main__.Server object at 0x7fb1edd35600>,), {})'
+2023-03-19 22:37:11,133 - DEBUG - server - Server with params ('0.0.0.0', 7777),  is starting...
+2023-03-19 22:37:11,133 - DEBUG - utils - Function: 'run' return: 'None'
+2023-03-19 22:37:17,141 - DEBUG - server - Connect from client accepted: Client id: 6, ('127.0.0.1', 56084)
+2023-03-19 22:37:17,141 - DEBUG - utils - Function: 'process_requests' running from module: 'server.py' and function: 'main_loop', with params: '((<__main__.Server object at 0x7fb1edd35600>, [<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56084)>]), {})'
+2023-03-19 22:37:17,142 - DEBUG - utils - Function: 'receive_data' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7fb1edd35600>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56084)>), {})'
+2023-03-19 22:37:17,142 - DEBUG - utils - Function: 'receive_data' return: '{'action': 'presence', 'time': 1679254636.2241848, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}'
+2023-03-19 22:37:17,142 - DEBUG - utils - Function: 'process_client_message' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7fb1edd35600>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56084)>, {'action': 'presence', 'time': 1679254636.2241848, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}), {})'
+2023-03-19 22:37:17,156 - DEBUG - utils - Function: 'send_data' running from module: 'server.py' and function: 'process_client_message', with params: '((<__main__.Server object at 0x7fb1edd35600>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56084)>, {'response': 200, 'time': 1679254637.155833}), {})'
+2023-03-19 22:37:17,156 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-19 22:37:17,156 - DEBUG - utils - Function: 'process_client_message' return: 'None'
+2023-03-19 22:37:17,156 - DEBUG - server - Get request from Client id: 6, ('127.0.0.1', 56084), data: {'action': 'presence', 'time': 1679254636.2241848, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-03-19 22:37:17,156 - DEBUG - utils - Function: 'process_requests' return: 'None'
+2023-03-19 22:37:22,095 - DEBUG - server - ===== Start working ===== (main)
+2023-03-19 22:37:22,104 - DEBUG - utils - Function: 'get_params' running from module: 'server.py' and function: 'main', with params: '((), {})'
+2023-03-19 22:37:22,104 - DEBUG - utils - Function: 'get_params' return: '(7777, '')'
+2023-03-19 22:37:22,130 - DEBUG - utils - Function: 'run' running from module: 'server.py' and function: 'main', with params: '((<__main__.Server object at 0x7f43b7991600>,), {})'
+2023-03-19 22:37:22,130 - DEBUG - utils - Function: 'run' return: 'None'
+2023-03-19 22:37:22,131 - CRITICAL - server - Error starting server [Errno 98] Address already in use
+2023-03-19 22:39:37,920 - DEBUG - server - ===== Start working ===== (main)
+2023-03-19 22:39:37,929 - DEBUG - utils - Function: 'get_params' running from module: 'server.py' and function: 'main', with params: '((), {})'
+2023-03-19 22:39:37,929 - DEBUG - utils - Function: 'get_params' return: '(7777, '')'
+2023-03-19 22:39:37,954 - DEBUG - utils - Function: 'run' running from module: 'server.py' and function: 'main', with params: '((<__main__.Server object at 0x7f7ace5f1660>,), {})'
+2023-03-19 22:39:37,955 - DEBUG - server - Server with params ('0.0.0.0', 7777),  is starting...
+2023-03-19 22:39:37,955 - DEBUG - utils - Function: 'run' return: 'None'
+2023-03-19 22:42:32,193 - DEBUG - server - ===== Start working ===== (main)
+2023-03-19 22:42:32,202 - DEBUG - utils - Function: 'get_params' running from module: 'server.py' and function: 'main', with params: '((), {})'
+2023-03-19 22:42:32,202 - DEBUG - utils - Function: 'get_params' return: '(7777, '')'
+2023-03-19 22:42:32,220 - DEBUG - utils - Function: 'run' running from module: 'server.py' and function: 'main', with params: '((<__main__.Server object at 0x7f66b30556c0>,), {})'
+2023-03-19 22:42:32,221 - DEBUG - utils - Function: 'run' return: 'None'
+2023-03-19 22:42:32,221 - DEBUG - server - Server with params ('0.0.0.0', 7777),  is starting...
+2023-03-19 22:42:35,834 - DEBUG - server - ===== Start working ===== (main)
+2023-03-19 22:42:35,842 - DEBUG - utils - Function: 'get_params' running from module: 'server.py' and function: 'main', with params: '((), {})'
+2023-03-19 22:42:35,843 - DEBUG - utils - Function: 'get_params' return: '(7777, '')'
+2023-03-19 22:42:35,869 - DEBUG - utils - Function: 'run' running from module: 'server.py' and function: 'main', with params: '((<__main__.Server object at 0x7fdd6cc4d6c0>,), {})'
+2023-03-19 22:42:35,870 - DEBUG - utils - Function: 'run' return: 'None'
+2023-03-19 22:42:35,870 - DEBUG - server - Server with params ('0.0.0.0', 7777),  is starting...
+2023-03-19 22:42:40,676 - DEBUG - server - Connect from client accepted: Client id: 6, ('127.0.0.1', 56086)
+2023-03-19 22:42:40,676 - DEBUG - utils - Function: 'process_requests' running from module: 'server.py' and function: 'main_loop', with params: '((<__main__.Server object at 0x7fdd6cc4d6c0>, [<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56086)>]), {})'
+2023-03-19 22:42:40,677 - DEBUG - utils - Function: 'receive_data' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7fdd6cc4d6c0>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56086)>), {})'
+2023-03-19 22:42:40,677 - DEBUG - utils - Function: 'receive_data' return: '{'action': 'presence', 'time': 1679254960.376152, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}'
+2023-03-19 22:42:40,677 - DEBUG - utils - Function: 'process_client_message' running from module: 'server.py' and function: 'process_requests', with params: '((<__main__.Server object at 0x7fdd6cc4d6c0>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56086)>, {'action': 'presence', 'time': 1679254960.376152, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}), {})'
+2023-03-19 22:42:40,703 - DEBUG - utils - Function: 'send_data' running from module: 'server.py' and function: 'process_client_message', with params: '((<__main__.Server object at 0x7fdd6cc4d6c0>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 56086)>, {'response': 200, 'time': 1679254960.7031016}), {})'
+2023-03-19 22:42:40,703 - DEBUG - utils - Function: 'send_data' return: 'None'
+2023-03-19 22:42:40,703 - DEBUG - utils - Function: 'process_client_message' return: 'None'
+2023-03-19 22:42:40,703 - DEBUG - server - Get request from Client id: 6, ('127.0.0.1', 56086), data: {'action': 'presence', 'time': 1679254960.376152, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-03-19 22:42:40,703 - DEBUG - utils - Function: 'process_requests' return: 'None'
+2023-03-19 22:42:46,388 - DEBUG - server - ===== Start working ===== (main)
+2023-03-19 22:42:46,396 - DEBUG - utils - Function: 'get_params' running from module: 'server.py' and function: 'main', with params: '((), {})'
+2023-03-19 22:42:46,397 - DEBUG - utils - Function: 'get_params' return: '(7777, '')'
+2023-03-19 22:42:46,419 - DEBUG - utils - Function: 'run' running from module: 'server.py' and function: 'main', with params: '((<__main__.Server object at 0x7f53cf56d6c0>,), {})'
+2023-03-19 22:42:46,419 - CRITICAL - server - Error starting server [Errno 98] Address already in use
+2023-03-19 22:42:46,420 - DEBUG - utils - Function: 'run' return: 'None'
+2023-03-19 22:45:50,168 - DEBUG - server - ===== Start working ===== (main)
+2023-03-19 22:45:50,177 - DEBUG - utils - Function: 'get_params' running from module: 'server.py' and function: 'main', with params: '((), {})'
+2023-03-19 22:45:50,177 - DEBUG - utils - Function: 'get_params' return: '(7777, '')'
+2023-03-19 22:45:50,202 - DEBUG - utils - Function: 'run' running from module: 'server.py' and function: 'main', with params: '((<__main__.Server object at 0x7fcf4c11d6c0>,), {})'
+2023-03-19 22:45:50,203 - DEBUG - utils - Function: 'run' return: 'None'
+2023-03-19 22:45:50,203 - DEBUG - server - Server with params ('0.0.0.0', 7777),  is starting...
+2023-03-19 22:46:46,821 - DEBUG - server - ===== Start working ===== (main)
+2023-03-19 22:46:46,829 - DEBUG - utils - Function: 'get_params' running from module: 'server.py' and function: 'main', with params: '((), {})'
+2023-03-19 22:46:46,830 - DEBUG - utils - Function: 'get_params' return: '(7777, '')'
+2023-03-19 22:46:46,856 - DEBUG - utils - Function: 'run' running from module: 'server.py' and function: 'main', with params: '((<__main__.Server object at 0x7f4145a996c0>,), {})'
+2023-03-19 22:46:46,856 - DEBUG - utils - Function: 'run' return: 'None'
+2023-03-19 22:46:46,856 - DEBUG - server - Server with params ('0.0.0.0', 7777),  is starting...
+2023-03-19 23:02:16,278 - DEBUG - server - ===== Start working ===== (main)
+2023-03-19 23:02:16,287 - DEBUG - utils - Function: 'get_params' running from module: 'server.py' and function: 'main', with params: '((), {})'
+2023-03-19 23:02:16,287 - DEBUG - utils - Function: 'get_params' return: '(7777, '')'
+2023-03-19 23:02:16,310 - DEBUG - utils - Function: 'run' running from module: 'server.py' and function: 'main', with params: '((<__main__.Server object at 0x7f5611ae92d0>,), {})'
+2023-03-19 23:02:16,310 - DEBUG - utils - Function: 'run' return: 'None'
+2023-03-19 23:02:16,310 - DEBUG - server - Server with params ('0.0.0.0', 7777),  is starting...
