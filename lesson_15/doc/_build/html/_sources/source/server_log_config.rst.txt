@@ -1,0 +1,8 @@
+server\_log\_config module
+==========================
+Пакет, содержащий конфигурации для логирования работы cерверного модуля.
+
+.. automodule:: log.server_log_config
+   :members:
+   :undoc-members:
+   :show-inheritance:
