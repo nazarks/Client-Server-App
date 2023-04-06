@@ -1,0 +1,29 @@
+2023-04-05 23:02:00,325 - DEBUG - utils - Function:  arg_parser with params: () , {}. running from module: __main__
+2023-04-05 23:02:00,335 - DEBUG - utils - Function: 'arg_parser' return: '('127.0.0.1', 7777)'
+2023-04-05 23:02:03,335 - INFO - client - Запущен клиент с парамерами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: Nik
+2023-04-05 23:02:03,410 - DEBUG - transport - Установлено соединение с сервером
+2023-04-05 23:02:03,410 - DEBUG - transport - Presence created: {'action': 'presence', 'time': 1680724923.4100323, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-04-05 23:02:03,411 - DEBUG - transport - Sent data to server: {'action': 'presence', 'time': 1680724923.4100323, 'type': 'status', 'user': {'account_name': 'Nik', 'status': 'Yep, I am here!'}}
+2023-04-05 23:02:03,636 - DEBUG - transport - Need authenticate
+2023-04-05 23:02:03,636 - DEBUG - transport - Sent authenticate message: {'action': 'authenticate', 'time': 1680724923.6360638, 'user': {'account_name': 'Nik', 'password': '123'}}
+2023-04-05 23:02:03,716 - DEBUG - transport - Receive data: {'response': 200, 'time': 1680724923.7161956}
+2023-04-05 23:02:03,716 - DEBUG - transport - Authenticated successfully
+2023-04-05 23:02:03,716 - DEBUG - transport - Answer from server: 200, OK
+2023-04-05 23:02:03,716 - DEBUG - transport - User contact list for: Nik
+2023-04-05 23:02:03,716 - DEBUG - transport - Request to server {'action': 'get_contacts', 'time': 1680724923.7161956, 'user_login': 'Nik'}
+2023-04-05 23:02:03,926 - DEBUG - transport - Получен ответ {'response': 202, 'alert': ['Kate', 'Ivan', 'Leny', 'Mark']}
+2023-04-05 23:02:03,996 - DEBUG - transport - Contact added to database: Kate
+2023-04-05 23:02:04,055 - DEBUG - transport - Contact added to database: Ivan
+2023-04-05 23:02:04,125 - DEBUG - transport - Contact added to database: Leny
+2023-04-05 23:02:04,175 - DEBUG - transport - Contact added to database: Mark
+2023-04-05 23:02:04,175 - DEBUG - transport - Запущен процесс - приёмник сообщений с сервера.
+2023-04-05 23:02:04,185 - DEBUG - main_window - Contact_list update: ['Kate', 'Ivan', 'Leny', 'Mark']
+2023-04-05 23:02:05,825 - DEBUG - main_window - history_list_update [['Nik', 'Leny', 'ff', datetime.datetime(2023, 4, 3, 20, 24, 0, 188472), 'out'], ['Nik', 'Leny', 'ggg', datetime.datetime(2023, 4, 3, 20, 24, 5, 588325), 'out']] for user Nik
+2023-04-05 23:02:07,459 - DEBUG - transport - Message dict created: {'action': 'msg', 'time': 1680724927.4595673, 'from': 'Nik', 'message': '213', 'to': 'Leny'}
+2023-04-05 23:02:07,459 - DEBUG - transport - Try ro sent: Message {'action': 'msg', 'time': 1680724927.4595673, 'from': 'Nik', 'message': '213', 'to': 'Leny'} to_user Leny
+2023-04-05 23:02:07,525 - DEBUG - transport - Разбор сообщения от сервера: {'response': 400, 'time': 1680724927.5221398, 'error': 'User not online'}
+2023-04-05 23:02:07,526 - ERROR - transport - Response from server: {'response': 400, 'time': 1680724927.5221398, 'error': 'User not online'}
+2023-04-05 23:02:10,505 - DEBUG - transport - Message dict created: {'action': 'quit', 'time': 1680724930.5056899}
+2023-04-05 23:02:10,505 - DEBUG - transport - Транспорт завершает работу.
+2023-04-05 23:02:11,285 - DEBUG - transport - Принято сообщение с сервера: {message}
+2023-04-05 23:02:11,285 - DEBUG - transport - Received 0 byte, perhaps disconnect from server. Client closed.
